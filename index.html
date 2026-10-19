@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>경기지역본부 · 업무대체 관리방</title>
+  
+  <!-- React & ReactDOM -->
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+  
+  <!-- Babel (JSX Transpiler) -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Prop-Types (Recharts 의존성) -->
+  <script src="https://unpkg.com/prop-types/prop-types.min.js"></script>
+  
+  <!-- Recharts -->
+  <script src="https://unpkg.com/recharts@2.12.7/umd/Recharts.js"></script>
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body style="background-color: #121418; margin: 0; padding: 0;">
+  <div id="root"></div>
+
+  <script type="text/babel">
+    const { useState, useEffect, useMemo } = React;
+    const { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell } = Recharts;
+
+    const PERSON_PALETTE = ["#5B8DEF", "#F2A93B", "#C084E0", "#4ADE80", "#F87171", "#22C5C5", "#EAB308", "#A855F7"];
+
+    function shortDate(d) {
+      if (!d) return "";
+      const [, m, day] = d.split("-");
+      return `${m}/${day}`;
+    }
+
+    const RepeatIcon = ({ color = "#F2A93B", reverse = false }) => (
+      <svg
+        width="13"
+        height="13"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke={color}
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        style={{ transform: reverse ? "scaleX(-1)" : "none", display: "inline-block", verticalAlign: "middle" }}
+      >
+        <path d="m2 9 3-3 3 3"/>
+        <path d="M13 18H7a5 5 0 0 1-5-5V6"/>
+        <path d="m22 15-3 3-3-3"/>
+        <path d="M11 6h6a5 5 0 0 1 5 5v7"/>
+      </svg>
+    );
+
+    function SubstitutionDashboard() {
+      const [records, setRecords] = useState([]);
+      const [roster, setRoster] = useState([]);
+      const [selectedDate, setSelectedDate] = useState(null);
+      const [filterBranch, setFilterBranch] = useState("전체");
+      const [expandedReq, setExpandedReq] = useState({});
+      const [expandedSub, setExpandedSub] = useState({});
+
+      // data.json 데이터를 실시간 로드
+      useEffect(() => {
+        fetch('./data.json?t=' + new Date().getTime())
+          .then((res) => {
+            if (!res.ok) throw new Error("JSON 로드 실패");
+            return res.json();
+          })
+          .then((data) => {
+            const loadedRecords = (data.records || []).filter((r) => ["본조", "본부"].includes(r.branch));
+            const loadedRoster = Array.from(new Set([...(data.roster || []), ...loadedRecords.flatMap(r => [r.requester, r.substitute])].filter(Boolean)));
+            setRecords(loadedRecords);
+            setRoster(loadedRoster);
+
+            if (loadedRecords.length > 0) {
+              const sortedDates = Array.from(new Set(loadedRecords.map((r) => r.date))).sort();
+              setSelectedDate(sortedDates[sortedDates.length - 1]);
+            }
+          })
+          .catch((err) => console.error("데이터 로드 중 오류:", err));
+      }, []);
+
+      const branchList = ["본조", "본부"]; // 고정된 업무대체 분류
+      
+      const visibleRecords = useMemo(
+        () => (filterBranch === "전체" ? records : records.filter((r) => r.branch === filterBranch)),
+        [records, filterBranch]
+      );
+
+      const dateChips = useMemo(() => {
+        const set = new Set(visibleRecords.map((r) => r.date));
+        return Array.from(set).sort().reverse();
+      }, [visibleRecords]);
+
+      const selectedCount = useMemo(() => {
+        return new Set(visibleRecords.filter((r) => r.date === selectedDate).map((r) => r.substitute)).size;
+      }, [visibleRecords, selectedDate]);
+
+      const monthTotal = useMemo(() => {
+        if (!selectedDate) return 0;
+        const ym = selectedDate.slice(0, 7);
+        return visibleRecords.filter((r) => r.date.slice(0, 7) === ym).length;
+      }, [visibleRecords, selectedDate]);
+
+      const monthLabelStr = selectedDate ? `${parseInt(selectedDate.slice(5, 7), 10)}월` : "";
+
+      const chartData = useMemo(() => {
+        const counts = {};
+        visibleRecords
+          .filter((r) => r.date === selectedDate)
+          .forEach((r) => (counts[r.substitute] = (counts[r.substitute] || 0) + 1));
+        return Object.entries(counts).map(([name, 건수]) => ({ name, 건수 }));
+      }, [visibleRecords, selectedDate]);
+
+      const requesterChartData = useMemo(() => {
+        const counts = {};
+        visibleRecords
+          .filter((r) => r.date === selectedDate)
+          .forEach((r) => (counts[r.requester] = (counts[r.requester] || 0) + 1));
+        return Object.entries(counts).map(([name, 건수]) => ({ name, 건수 }));
+      }, [visibleRecords, selectedDate]);
+
+      const rosterStats = useMemo(() => {
+        return roster.map((name) => {
+          const asRequester = visibleRecords.filter((r) => r.requester === name);
+          const asSubstitute = visibleRecords.filter((r) => r.substitute === name);
+          const all = [...asRequester, ...asSubstitute].sort((a, b) => (a.date < b.date ? 1 : -1));
+          return {
+            name,
+            requestCount: asRequester.length,
+            substituteCount: asSubstitute.length,
+            lastDate: all[0]?.date || null,
+          };
+        });
+      }, [roster, visibleRecords]);
+
+      const roleChartData = useMemo(
+        () => rosterStats.map((m) => ({ name: m.name, 신청: m.requestCount, 대체: m.substituteCount })),
+        [rosterStats]
+      );
+
+      const requesterList = useMemo(() => rosterStats.filter((m) => m.requestCount > 0).sort((a, b) => b.requestCount - a.requestCount), [rosterStats]);
+      const substituteList = useMemo(() => rosterStats.filter((m) => m.substituteCount > 0).sort((a, b) => b.substituteCount - a.substituteCount), [rosterStats]);
+
+      const byRequester = useMemo(() => {
+        const map = {};
+        visibleRecords.forEach((r) => {
+          if (!map[r.requester]) map[r.requester] = [];
+          map[r.requester].push(r);
+        });
+        return Object.entries(map)
+          .map(([requester, items]) => ({
+            requester,
+            items: items.sort((a, b) => (a.date < b.date ? 1 : -1)),
+          }))
+          .sort((a, b) => (a.items[0].date < b.items[0].date ? 1 : -1));
+      }, [visibleRecords]);
+
+      const bySubstitute = useMemo(() => {
+        const map = {};
+        visibleRecords.forEach((r) => {
+          if (!map[r.substitute]) map[r.substitute] = [];
+          map[r.substitute].push(r);
+        });
+        return Object.entries(map)
+          .map(([substitute, items]) => ({
+            substitute,
+            items: items.sort((a, b) => (a.date < b.date ? 1 : -1)),
+          }))
+          .sort((a, b) => (a.items[0].date < b.items[0].date ? 1 : -1));
+      }, [visibleRecords]);
+
+      return (
+        <div className="min-h-screen max-w-2xl mx-auto" style={{ background: "#121418" }}>
+          <div className="px-5 pt-5 pb-4">
+            <p className="text-[11px] font-bold mb-1" style={{ color: "#F2A93B" }}>
+              경기지역본부 · 업무대체 관리방
+            </p>
+            <div className="flex items-end justify-between">
+              <h1 className="text-white font-extrabold text-2xl tracking-tight">업무대체 현황판</h1>
+              <div className="text-right">
+                <p className="text-white font-extrabold text-3xl leading-none font-mono">{selectedCount}</p>
+                <p className="text-[10px] mt-1" style={{ color: "#8A8F98" }}>
+                  {selectedDate ? shortDate(selectedDate) : "-"} 대체 인원
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {dateChips.length > 0 && (
+            <div className="flex gap-2 px-5 pb-3 overflow-x-auto">
+              {dateChips.map((d) => (
+                <button
+                  key={d}
+                  onClick={() => setSelectedDate(d)}
+                  className="shrink-0 px-4 py-2 rounded-full text-sm font-bold font-mono"
+                  style={d === selectedDate ? { background: "#F2A93B", color: "#1C2127" } : { background: "#1E2126", color: "#8A8F98" }}
+                >
+                  {shortDate(d)}
+                </button>
+              ))}
+            </div>
+          )}
+
+          {branchList.length > 0 && (
+            <div className="flex gap-2 px-5 pb-4 overflow-x-auto">
+              <button
+                onClick={() => { setFilterBranch("전체"); setSelectedDate(Array.from(new Set(records.map(r => r.date))).sort().at(-1) || null); }}
+                className="shrink-0 px-3 py-1.5 rounded-lg text-xs font-bold border"
+                style={filterBranch === "전체" ? { background: "#5B8DEF", borderColor: "#5B8DEF", color: "#fff" } : { background: "transparent", borderColor: "#2A2D33", color: "#8A8F98" }}
+              >
+                전체
+              </button>
+              {branchList.map((b) => (
+                <button
+                  key={b}
+                  onClick={() => { setFilterBranch(b); setSelectedDate(Array.from(new Set(records.filter(r => r.branch === b).map(r => r.date))).sort().at(-1) || null); }}
+                  className="shrink-0 px-3 py-1.5 rounded-lg text-xs font-bold border"
+                  style={filterBranch === b ? { background: "#5B8DEF", borderColor: "#5B8DEF", color: "#fff" } : { background: "transparent", borderColor: "#2A2D33", color: "#8A8F98" }}
+                >
+                  {b}
+                </button>
+              ))}
+            </div>
+          )}
+
+          <div className="px-4 pb-10">
+            <div className="rounded-2xl px-4 py-3 mb-5 flex items-center justify-between" style={{ background: "#1A1D22" }}>
+              <span className="text-sm font-bold" style={{ color: "#8A8F98" }}>
+                {monthLabelStr} 총 대체건수{filterBranch !== "전체" ? ` · ${filterBranch}` : ""}
+              </span>
+              <span className="text-xl font-extrabold font-mono text-white">
+                {monthTotal}
+                <span className="text-xs font-normal ml-0.5" style={{ color: "#8A8F98" }}>
+                  건
+                </span>
+              </span>
+            </div>
+
+            {/* 개인별 대체 인원 그래프 */}
+            <div className="rounded-2xl p-4 mb-5" style={{ background: "#1A1D22" }}>
+              <p className="text-sm font-bold text-white mb-4">개인별 대체 건수</p>
+              {chartData.length === 0 ? (
+                <p className="text-xs text-center py-10" style={{ color: "#5B6069" }}>
+                  해당 날짜에 등록된 대체보고가 없습니다.
+                </p>
+              ) : (
+                <ResponsiveContainer width="100%" height={200}>
+                  <BarChart data={chartData} margin={{ top: 8, right: 8, left: -20, bottom: 0 }}>
+                    <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#2A2D33" />
+                    <XAxis dataKey="name" tick={{ fontSize: 12, fill: "#8A8F98" }} axisLine={{ stroke: "#2A2D33" }} tickLine={false} />
+                    <YAxis allowDecimals={false} tick={{ fontSize: 11, fill: "#8A8F98" }} axisLine={false} tickLine={false} />
+                    <Tooltip cursor={{ fill: "#25282E" }} contentStyle={{ background: "#1E2126", border: "1px solid #2A2D33", borderRadius: 8, fontSize: 12, color: "#fff" }} />
+                    <Bar dataKey="건수" radius={[6, 6, 0, 0]} barSize={44}>
+                      {chartData.map((d, i) => (
+                        <Cell key={i} fill={PERSON_PALETTE[i % PERSON_PALETTE.length]} />
+                      ))}
+                    </Bar>
+                  </BarChart>
+                </ResponsiveContainer>
+              )}
+            </div>
+
+            {/* 신청자별 인원 그래프 */}
+            <div className="rounded-2xl p-4 mb-5" style={{ background: "#1A1D22" }}>
+              <p className="text-sm font-bold text-white mb-4">신청자별 신청 건수</p>
+              {requesterChartData.length === 0 ? (
+                <p className="text-xs text-center py-10" style={{ color: "#5B6069" }}>
+                  해당 날짜에 등록된 대체보고가 없습니다.
+                </p>
+              ) : (
+                <ResponsiveContainer width="100%" height={200}>
+                  <BarChart data={requesterChartData} margin={{ top: 8, right: 8, left: -20, bottom: 0 }}>
+                    <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#2A2D33" />
+                    <XAxis dataKey="name" tick={{ fontSize: 12, fill: "#8A8F98" }} axisLine={{ stroke: "#2A2D33" }} tickLine={false} />
+                    <YAxis allowDecimals={false} tick={{ fontSize: 11, fill: "#8A8F98" }} axisLine={false} tickLine={false} />
+                    <Tooltip cursor={{ fill: "#25282E" }} contentStyle={{ background: "#1E2126", border: "1px solid #2A2D33", borderRadius: 8, fontSize: 12, color: "#fff" }} />
+                    <Bar dataKey="건수" radius={[6, 6, 0, 0]} barSize={44}>
+                      {requesterChartData.map((d, i) => (
+                        <Cell key={i} fill={PERSON_PALETTE[i % PERSON_PALETTE.length]} />
+                      ))}
+                    </Bar>
+                  </BarChart>
+                </ResponsiveContainer>
+              )}
+            </div>
+
+            {/* 신청자/대체자 역할별 그래프 */}
+            <div className="rounded-2xl p-4 mb-5" style={{ background: "#1A1D22" }}>
+              <div className="flex items-center gap-4 mb-4">
+                <p className="text-sm font-bold text-white">대체신청자 · 대체조합원별 건수</p>
+                <div className="flex items-center gap-3 text-[11px]" style={{ color: "#8A8F98" }}>
+                  <span className="flex items-center gap-1">
+                    <span className="w-2 h-2 rounded-full inline-block" style={{ background: "#F2A93B" }} /> 신청
+                  </span>
+                  <span className="flex items-center gap-1">
+                    <span className="w-2 h-2 rounded-full inline-block" style={{ background: "#5B8DEF" }} /> 대체
+                  </span>
+                </div>
+              </div>
+              {roleChartData.length === 0 ? (
+                <p className="text-xs text-center py-10" style={{ color: "#5B6069" }}>
+                  등록된 명단이 없습니다.
+                </p>
+              ) : (
+                <ResponsiveContainer width="100%" height={200}>
+                  <BarChart data={roleChartData} margin={{ top: 8, right: 8, left: -20, bottom: 0 }}>
+                    <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#2A2D33" />
+                    <XAxis dataKey="name" tick={{ fontSize: 12, fill: "#8A8F98" }} axisLine={{ stroke: "#2A2D33" }} tickLine={false} />
+                    <YAxis allowDecimals={false} tick={{ fontSize: 11, fill: "#8A8F98" }} axisLine={false} tickLine={false} />
+                    <Tooltip cursor={{ fill: "#25282E" }} contentStyle={{ background: "#1E2126", border: "1px solid #2A2D33", borderRadius: 8, fontSize: 12, color: "#fff" }} />
+                    <Bar dataKey="신청" fill="#F2A93B" radius={[4, 4, 0, 0]} barSize={20} />
+                    <Bar dataKey="대체" fill="#5B8DEF" radius={[4, 4, 0, 0]} barSize={20} />
+                  </BarChart>
+                </ResponsiveContainer>
+              )}
+            </div>
+
+            {/* 명단 분리 */}
+            <div className="grid grid-cols-2 gap-3 mb-5">
+              <div className="rounded-2xl overflow-hidden" style={{ background: "#1A1D22" }}>
+                <p className="text-xs font-bold px-4 pt-3 pb-2" style={{ color: "#F2A93B" }}>
+                  신청자 명단
+                </p>
+                {requesterList.length === 0 ? (
+                  <p className="text-xs text-center py-6" style={{ color: "#5B6069" }}>
+                    없음
+                  </p>
+                ) : (
+                  requesterList.map((m, i) => (
+                    <div key={m.name} className="flex items-center justify-between px-4 py-2.5" style={i > 0 ? { borderTop: "1px solid #25282E" } : {}}>
+                      <span className="text-sm font-bold text-white">{m.name}</span>
+                      <span className="text-xs font-mono" style={{ color: "#8A8F98" }}>
+                        {m.requestCount}회
+                      </span>
+                    </div>
+                  ))
+                )}
+              </div>
+              <div className="rounded-2xl overflow-hidden" style={{ background: "#1A1D22" }}>
+                <p className="text-xs font-bold px-4 pt-3 pb-2" style={{ color: "#5B8DEF" }}>
+                  대체자 명단
+                </p>
+                {substituteList.length === 0 ? (
+                  <p className="text-xs text-center py-6" style={{ color: "#5B6069" }}>
+                    없음
+                  </p>
+                ) : (
+                  substituteList.map((m, i) => (
+                    <div key={m.name} className="flex items-center justify-between px-4 py-2.5" style={i > 0 ? { borderTop: "1px solid #25282E" } : {}}>
+                      <span className="text-sm font-bold text-white">{m.name}</span>
+                      <span className="text-xs font-mono" style={{ color: "#8A8F98" }}>
+                        {m.substituteCount}회
+                      </span>
+                    </div>
+                  ))
+                )}
+              </div>
+            </div>
+
+            {/* 신청자별 리스트 */}
+            <p className="text-sm font-bold mb-2 px-1" style={{ color: "#8A8F98" }}>
+              신청자별 리스트
+            </p>
+            {byRequester.length === 0 ? (
+              <div className="rounded-2xl p-8 text-center text-sm" style={{ background: "#1A1D22", color: "#5B6069" }}>
+                등록된 대체보고가 없습니다.
+              </div>
+            ) : (
+              <div className="flex flex-col gap-3">
+                {byRequester.map(({ requester, items }) => {
+                  const isExpanded = !!expandedReq[requester];
+                  return (
+                    <div key={requester} className="rounded-2xl overflow-hidden" style={{ background: "#1A1D22" }}>
+                      <button
+                        onClick={() => setExpandedReq((c) => ({ ...c, [requester]: !c[requester] }))}
+                        className="w-full flex items-center justify-between px-4 py-3.5"
+                      >
+                        <span className="text-sm font-bold text-white">
+                          {requester}{" "}
+                          <span className="text-xs font-normal font-mono" style={{ color: "#8A8F98" }}>
+                            {shortDate(items[0].date)}
+                          </span>{" "}
+                          <span className="text-xs font-normal" style={{ color: "#5B6069" }}>신청 {items.length}건</span>
+                        </span>
+                        <span className="text-xs" style={{ color: "#5B6069" }}>{isExpanded ? "접기" : "펼치기"}</span>
+                      </button>
+                      {isExpanded && (
+                        <div>
+                          {items.map((r) => (
+                            <div key={r.id} className="px-4 py-3 border-t" style={{ borderColor: "#25282E" }}>
+                              <div className="flex items-center gap-1.5 text-sm font-bold mb-1.5 text-white">
+                                <span className="text-[11px] font-mono font-normal" style={{ color: "#8A8F98" }}>
+                                  {shortDate(r.date)}
+                                </span>
+                                <span className="text-[10px] font-normal px-1.5 py-0.5 rounded" style={{ background: "#25282E", color: "#8A8F98" }}>
+                                  {r.branch}
+                                </span>
+                                <RepeatIcon color="#F2A93B" />
+                                <span>{r.substitute}</span>
+                              </div>
+                              {r.workDetails && (
+                                <p className="text-xs whitespace-pre-line mb-1.5" style={{ color: "#C4C8CE" }}>
+                                  {r.workDetails}
+                                </p>
+                              )}
+                              {r.companion && (
+                                <p className="text-[11px]" style={{ color: "#5B6069" }}>
+                                  동반자: {r.companion}
+                                </p>
+                              )}
+                            </div>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  );
+                })}
+              </div>
+            )}
+
+            {/* 대체자별 리스트 */}
+            <p className="text-sm font-bold mb-2 mt-5 px-1" style={{ color: "#8A8F98" }}>
+              대체자별 리스트
+            </p>
+            {bySubstitute.length === 0 ? (
+              <div className="rounded-2xl p-8 text-center text-sm" style={{ background: "#1A1D22", color: "#5B6069" }}>
+                등록된 대체보고가 없습니다.
+              </div>
+            ) : (
+              <div className="flex flex-col gap-3">
+                {bySubstitute.map(({ substitute, items }) => {
+                  const isExpanded = !!expandedSub[substitute];
+                  return (
+                    <div key={substitute} className="rounded-2xl overflow-hidden" style={{ background: "#1A1D22" }}>
+                      <button
+                        onClick={() => setExpandedSub((c) => ({ ...c, [substitute]: !c[substitute] }))}
+                        className="w-full flex items-center justify-between px-4 py-3.5"
+                      >
+                        <span className="text-sm font-bold text-white">
+                          {substitute}{" "}
+                          <span className="text-xs font-normal font-mono" style={{ color: "#8A8F98" }}>
+                            {shortDate(items[0].date)}
+                          </span>{" "}
+                          <span className="text-xs font-normal" style={{ color: "#5B6069" }}>대체 {items.length}건</span>
+                        </span>
+                        <span className="text-xs" style={{ color: "#5B6069" }}>{isExpanded ? "접기" : "펼치기"}</span>
+                      </button>
+                      {isExpanded && (
+                        <div>
+                          {items.map((r) => (
+                            <div key={r.id} className="px-4 py-3 border-t" style={{ borderColor: "#25282E" }}>
+                              <div className="flex items-center gap-1.5 text-sm font-bold mb-1.5 text-white">
+                                <span className="text-[11px] font-mono font-normal" style={{ color: "#8A8F98" }}>
+                                  {shortDate(r.date)}
+                                </span>
+                                <span className="text-[10px] font-normal px-1.5 py-0.5 rounded" style={{ background: "#25282E", color: "#8A8F98" }}>
+                                  {r.branch}
+                                </span>
+                                <RepeatIcon color="#5B8DEF" reverse={true} />
+                                <span>{r.requester}</span>
+                              </div>
+                              {r.workDetails && (
+                                <p className="text-xs whitespace-pre-line mb-1.5" style={{ color: "#C4C8CE" }}>
+                                  {r.workDetails}
+                                </p>
+                              )}
+                              {r.companion && (
+                                <p className="text-[11px]" style={{ color: "#5B6069" }}>
+                                  동반자: {r.companion}
+                                </p>
+                              )}
+                            </div>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  );
+                })}
+              </div>
+            )}
+          </div>
+        </div>
+      );
+    }
+
+    const root = ReactDOM.createRoot(document.getElementById("root"));
+    root.render(<SubstitutionDashboard />);
+  </script>
+</body>
+</html>
