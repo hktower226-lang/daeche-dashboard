@@ -1049,6 +1049,50 @@
       "workDetails": "민노회의 외 방송장비 점검등",
       "companion": "본부장",
       "note": ""
+    },
+    {
+      "id": "rec-20261021-bonbu-lwj",
+      "date": "2026-10-21",
+      "branch": "본부",
+      "position": "지부장",
+      "requester": "이우진",
+      "substitute": "김재선",
+      "workDetails": "용인지부 · 동일하이빌 본사집회",
+      "companion": "이우성 조직부장, 임재현, 김주찬",
+      "note": "원문 분류: 용인지부"
+    },
+    {
+      "id": "rec-20261020-bonbu-hdh",
+      "date": "2026-10-20",
+      "branch": "본부",
+      "position": "조직차장",
+      "requester": "홍대훈",
+      "substitute": "윤소담",
+      "workDetails": "북서지부 현장활동",
+      "companion": "북서지부장님",
+      "note": "대체조합원 원문: 윤소담 기사님"
+    },
+    {
+      "id": "rec-20261020-bonbu-mjs",
+      "date": "2026-10-20",
+      "branch": "본부",
+      "position": "조직차장",
+      "requester": "문주식",
+      "substitute": "이경재",
+      "workDetails": "노안활동",
+      "companion": "우경원 조직부장",
+      "note": ""
+    },
+    {
+      "id": "rec-20261020-bonbu-wky",
+      "date": "2026-10-20",
+      "branch": "본부",
+      "position": "조직부장",
+      "requester": "우경원",
+      "substitute": "조진명",
+      "workDetails": "민노공동투쟁 노안활동",
+      "companion": "문주식차장",
+      "note": ""
     }
   ]
 }
