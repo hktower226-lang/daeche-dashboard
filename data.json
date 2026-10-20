@@ -1093,6 +1093,28 @@
       "workDetails": "민노공동투쟁 노안활동",
       "companion": "문주식차장",
       "note": ""
+    },
+    {
+      "id": "rec-20261021-bonbu-lws",
+      "date": "2026-10-21",
+      "branch": "본부",
+      "position": "조직부장",
+      "requester": "이우성",
+      "substitute": "이경재",
+      "workDetails": "동일토건 본사집회 및 담당자 미팅",
+      "companion": "",
+      "note": ""
+    },
+    {
+      "id": "rec-20261022-bonbu-lwj",
+      "date": "2026-10-22",
+      "branch": "본부",
+      "position": "지부장",
+      "requester": "이우진",
+      "substitute": "김재선",
+      "workDetails": "지역대표자회의 및 관내 무인 현장 활동",
+      "companion": "지부조직차장",
+      "note": ""
     }
   ]
 }
