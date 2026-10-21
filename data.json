@@ -1115,6 +1115,17 @@
       "workDetails": "지역대표자회의 및 관내 무인 현장 활동",
       "companion": "지부조직차장",
       "note": ""
+    },
+    {
+      "id": "rec-20261022-bonbu-mjs",
+      "date": "2026-10-22",
+      "branch": "본부",
+      "position": "조직차장",
+      "requester": "문주식",
+      "substitute": "이경재",
+      "workDetails": "노안활동",
+      "companion": "정윤기 조직차장",
+      "note": ""
     }
   ]
 }
