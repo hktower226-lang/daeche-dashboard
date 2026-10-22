@@ -1024,7 +1024,7 @@
       "position": "사무국장",
       "requester": "박현진",
       "substitute": "서두석",
-      "workDetails": "",
+      "workDetails": "본조 사무국업무",
       "companion": "",
       "note": ""
     },
@@ -1035,7 +1035,7 @@
       "position": "사무국장",
       "requester": "박현진",
       "substitute": "서두석",
-      "workDetails": "",
+      "workDetails": "본조 사무국업무",
       "companion": "",
       "note": ""
     },
@@ -1158,6 +1158,61 @@
       "substitute": "윤소담",
       "workDetails": "해유 현장방문 및 활동",
       "companion": "박승환 조직부장",
+      "note": ""
+    },
+    {
+      "id": "rec-20261012-bonjo-phj",
+      "date": "2026-10-12",
+      "branch": "본조",
+      "position": "사무국장",
+      "requester": "박현진",
+      "substitute": "서두석",
+      "workDetails": "본조 사무국업무",
+      "companion": "",
+      "note": ""
+    },
+    {
+      "id": "rec-20261013-bonjo-phj",
+      "date": "2026-10-13",
+      "branch": "본조",
+      "position": "사무국장",
+      "requester": "박현진",
+      "substitute": "서두석",
+      "workDetails": "본조 사무국업무",
+      "companion": "",
+      "note": ""
+    },
+    {
+      "id": "rec-20261014-bonjo-phj",
+      "date": "2026-10-14",
+      "branch": "본조",
+      "position": "사무국장",
+      "requester": "박현진",
+      "substitute": "서두석",
+      "workDetails": "본조 사무국업무",
+      "companion": "",
+      "note": ""
+    },
+    {
+      "id": "rec-20261015-bonjo-phj",
+      "date": "2026-10-15",
+      "branch": "본조",
+      "position": "사무국장",
+      "requester": "박현진",
+      "substitute": "서두석",
+      "workDetails": "본조 사무국업무",
+      "companion": "",
+      "note": ""
+    },
+    {
+      "id": "rec-20261016-bonjo-phj",
+      "date": "2026-10-16",
+      "branch": "본조",
+      "position": "사무국장",
+      "requester": "박현진",
+      "substitute": "서두석",
+      "workDetails": "본조 사무국업무",
+      "companion": "",
       "note": ""
     }
   ]
