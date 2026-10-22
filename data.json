@@ -1236,6 +1236,28 @@
       "workDetails": "성남 노안활동",
       "companion": "정윤기 조직차장",
       "note": ""
+    },
+    {
+      "id": "rec-20261022-bonbu-pss",
+      "date": "2026-10-22",
+      "branch": "본부",
+      "position": "조직부장",
+      "requester": "박승환",
+      "substitute": "조진명",
+      "workDetails": "소형 현장 활동",
+      "companion": "홍대훈, 김우선",
+      "note": ""
+    },
+    {
+      "id": "rec-20261023-bonbu-pss",
+      "date": "2026-10-23",
+      "branch": "본부",
+      "position": "조직부장",
+      "requester": "박승환",
+      "substitute": "조진명",
+      "workDetails": "해유 현장방문 및 활동",
+      "companion": "홍대훈, 김우선",
+      "note": ""
     }
   ]
 }
