@@ -1258,6 +1258,17 @@
       "workDetails": "해유 현장방문 및 활동",
       "companion": "홍대훈, 김우선",
       "note": ""
+    },
+    {
+      "id": "rec-20261026-bonbu-cyh",
+      "date": "2026-10-26",
+      "branch": "본부",
+      "position": "지부장",
+      "requester": "최양호",
+      "substitute": "이상건",
+      "workDetails": "성남 시청 집회 및 미팅 예정",
+      "companion": "윤대식, 서재춘, 구상모",
+      "note": "예정"
     }
   ]
 }
