@@ -1269,6 +1269,28 @@
       "workDetails": "성남 시청 집회 및 미팅 예정",
       "companion": "윤대식, 서재춘, 구상모",
       "note": "예정"
+    },
+    {
+      "id": "rec-20261026-bonbu-jsi",
+      "date": "2026-10-26",
+      "branch": "본부",
+      "position": "지부장",
+      "requester": "정승일",
+      "substitute": "강대호",
+      "workDetails": "동부지부 · 이천일신건영 관계자 및 이천 관내 현장 파악",
+      "companion": "임재명",
+      "note": "원문 분류: 동부지부"
+    },
+    {
+      "id": "rec-20261026-bonbu-pss",
+      "date": "2026-10-26",
+      "branch": "본부",
+      "position": "조직부장",
+      "requester": "박승환",
+      "substitute": "조진명",
+      "workDetails": "민노와 현장 관련 미팅",
+      "companion": "이우성 조직부장",
+      "note": ""
     }
   ]
 }
