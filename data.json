@@ -1291,6 +1291,28 @@
       "workDetails": "민노와 현장 관련 미팅",
       "companion": "이우성 조직부장",
       "note": ""
+    },
+    {
+      "id": "rec-20261026-bonbu-jyk",
+      "date": "2026-10-26",
+      "branch": "본부",
+      "position": "조직차장",
+      "requester": "정윤기",
+      "substitute": "도형래",
+      "workDetails": "북서 노안활동",
+      "companion": "엄기우 조직차장",
+      "note": ""
+    },
+    {
+      "id": "rec-20261026-bonbu-lws",
+      "date": "2026-10-26",
+      "branch": "본부",
+      "position": "조직부장",
+      "requester": "이우성",
+      "substitute": "이경재",
+      "workDetails": "민주노총 미팅",
+      "companion": "박승환 조직부장",
+      "note": ""
     }
   ]
 }
