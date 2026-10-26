@@ -1313,6 +1313,28 @@
       "workDetails": "민주노총 미팅",
       "companion": "박승환 조직부장",
       "note": ""
+    },
+    {
+      "id": "rec-20261027-bonbu-jyk",
+      "date": "2026-10-27",
+      "branch": "본부",
+      "position": "조직차장",
+      "requester": "정윤기",
+      "substitute": "도형래",
+      "workDetails": "성남 노안활동",
+      "companion": "우경원 조직부장, 엄기우 조직차장",
+      "note": ""
+    },
+    {
+      "id": "rec-20261027-bonbu-wky",
+      "date": "2026-10-27",
+      "branch": "본부",
+      "position": "조직부장",
+      "requester": "우경원",
+      "substitute": "조진명",
+      "workDetails": "북부소형노안활동",
+      "companion": "정윤기, 엄기우 차장",
+      "note": ""
     }
   ]
 }
