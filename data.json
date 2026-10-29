@@ -1434,6 +1434,17 @@
       "workDetails": "성남 노안활동",
       "companion": "엄기우 조직차장",
       "note": ""
+    },
+    {
+      "id": "rec-20261030-bonbu-wky",
+      "date": "2026-10-30",
+      "branch": "본부",
+      "position": "조직부장",
+      "requester": "우경원",
+      "substitute": "조진명",
+      "workDetails": "북부소형 노안 및 교섭",
+      "companion": "최양호 지부장",
+      "note": ""
     }
   ]
 }
