@@ -1390,6 +1390,28 @@
       "workDetails": "북부소형노안활동",
       "companion": "엄기우, 정윤기 차장",
       "note": ""
+    },
+    {
+      "id": "rec-20261030-bonbu-ljb",
+      "date": "2026-10-30",
+      "branch": "본부",
+      "position": "지부장",
+      "requester": "임지병",
+      "substitute": "이경재",
+      "workDetails": "중부지부 · 대광건영 저단가입찰저지 집회, SM삼환 현장방문",
+      "companion": "강의석 기사, 심창현 기사",
+      "note": "원문 분류: 중부지부"
+    },
+    {
+      "id": "rec-20261030-bonbu-cyh",
+      "date": "2026-10-30",
+      "branch": "본부",
+      "position": "지부장",
+      "requester": "최양호",
+      "substitute": "이상건",
+      "workDetails": "금곡동현장 미팅",
+      "companion": "",
+      "note": ""
     }
   ]
 }
