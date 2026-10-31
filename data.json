@@ -1445,6 +1445,28 @@
       "workDetails": "북부소형 노안 및 교섭",
       "companion": "최양호 지부장",
       "note": ""
+    },
+    {
+      "id": "rec-20261102-bonbu-cyh",
+      "date": "2026-11-02",
+      "branch": "본부",
+      "position": "지부장",
+      "requester": "최양호",
+      "substitute": "이상건",
+      "workDetails": "금곡동현장 미팅",
+      "companion": "우경원",
+      "note": ""
+    },
+    {
+      "id": "rec-20261102-bonbu-lwj",
+      "date": "2026-11-02",
+      "branch": "본부",
+      "position": "지부장",
+      "requester": "이우진",
+      "substitute": "김응수",
+      "workDetails": "용인지부 · 원삼 동일하이빌 방문 및 관내 현장활동",
+      "companion": "양지훈",
+      "note": "원문 분류: 용인지부"
     }
   ]
 }
