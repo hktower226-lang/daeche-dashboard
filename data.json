@@ -1467,6 +1467,28 @@
       "workDetails": "용인지부 · 원삼 동일하이빌 방문 및 관내 현장활동",
       "companion": "양지훈",
       "note": "원문 분류: 용인지부"
+    },
+    {
+      "id": "rec-20261103-bonbu-lws",
+      "date": "2026-11-03",
+      "branch": "본부",
+      "position": "조직부장",
+      "requester": "이우성",
+      "substitute": "이경재",
+      "workDetails": "한백산업 대표미팅",
+      "companion": "박승환 조직부장",
+      "note": ""
+    },
+    {
+      "id": "rec-20261103-bonbu-pss",
+      "date": "2026-11-03",
+      "branch": "본부",
+      "position": "조직부장",
+      "requester": "박승환",
+      "substitute": "조진명",
+      "workDetails": "한백산업 대표미팅",
+      "companion": "이우성 조직부장",
+      "note": ""
     }
   ]
 }
