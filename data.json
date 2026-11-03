@@ -39,58 +39,14 @@
   ],
   "records": [
     {
-      "id": "seed-2026-08-31-bonbu-jyk-jn",
-      "date": "2026-08-31",
-      "branch": "본부",
-      "position": "조직차장",
-      "requester": "정윤기",
-      "substitute": "최현재",
-      "workDetails": "전남광주 집회참석",
-      "companion": "박문철 (본부장), 엄동기, 강태규",
-      "note": ""
-    },
-    {
-      "id": "seed-2026-09-01-bonbu-jyk-jn",
-      "date": "2026-09-01",
-      "branch": "본부",
-      "position": "조직차장",
-      "requester": "정윤기",
-      "substitute": "최현재",
-      "workDetails": "전남광주 집회참석",
-      "companion": "박문철 (본부장), 엄동기, 강태규",
-      "note": ""
-    },
-    {
-      "id": "seed-0903-bonbu-jyk",
-      "date": "2026-09-03",
-      "branch": "본부",
-      "position": "조직차장",
-      "requester": "정윤기",
-      "substitute": "최현재",
-      "workDetails": "수원 노안활동",
-      "companion": "이준영 (조직차장)",
-      "note": ""
-    },
-    {
-      "id": "seed-0831-bonbu-pss",
-      "date": "2026-08-31",
-      "branch": "본부",
-      "position": "조직부장",
-      "requester": "박승환",
-      "substitute": "조진명",
-      "workDetails": "계룡 우미 타노조관련 방문",
-      "companion": "남부지부장",
-      "note": ""
-    },
-    {
-      "id": "seed-0831-namseo",
+      "id": "seed-0831-nambu",
       "date": "2026-08-31",
       "branch": "본부",
       "position": "지부장",
-      "requester": "황창연",
-      "substitute": "박정환",
-      "workDetails": "하길리404 KCC, 동화리 SGC, 서동50 우미, 가수동453 더샵아크시티, 병점서영플러스 - 5개현장 방문 및 미팅",
-      "companion": "김철",
+      "requester": "김우선",
+      "substitute": "김재선",
+      "workDetails": "동탄1 계룡건설, 평택 우미건설 현장방문",
+      "companion": "박승환 (조직부장)",
       "note": ""
     },
     {
@@ -105,58 +61,14 @@
       "note": ""
     },
     {
-      "id": "seed-0831-nambu",
+      "id": "seed-0831-bonbu-pss",
       "date": "2026-08-31",
       "branch": "본부",
-      "position": "지부장",
-      "requester": "김우선",
-      "substitute": "김재선",
-      "workDetails": "동탄1 계룡건설, 평택 우미건설 현장방문",
-      "companion": "박승환 (조직부장)",
-      "note": ""
-    },
-    {
-      "id": "seed-0901-bonbu-pss",
-      "date": "2026-09-01",
-      "branch": "본부",
       "position": "조직부장",
       "requester": "박승환",
       "substitute": "조진명",
-      "workDetails": "제일건설 본사 관계자 미팅",
-      "companion": "본부장",
-      "note": ""
-    },
-    {
-      "id": "seed-0902-bonbu-pcs",
-      "date": "2026-09-02",
-      "branch": "본부",
-      "position": "사무장",
-      "requester": "박춘성",
-      "substitute": "윤성우",
-      "workDetails": "회계",
-      "companion": "한세환 사무차장",
-      "note": ""
-    },
-    {
-      "id": "seed-0902-bonbu-pss",
-      "date": "2026-09-02",
-      "branch": "본부",
-      "position": "조직부장",
-      "requester": "박승환",
-      "substitute": "조진명",
-      "workDetails": "박승환 부장님 대체",
-      "companion": "본부장",
-      "note": ""
-    },
-    {
-      "id": "seed-0902-bonbu-mmg",
-      "date": "2026-09-02",
-      "branch": "본부",
-      "position": "부본부장",
-      "requester": "문민곤",
-      "substitute": "엄기재",
-      "workDetails": "금강교섭",
-      "companion": "본부장, 조직부장",
+      "workDetails": "계룡 우미 타노조관련 방문",
+      "companion": "남부지부장",
       "note": ""
     },
     {
@@ -171,6 +83,39 @@
       "note": ""
     },
     {
+      "id": "seed-2026-08-31-bonbu-jyk-jn",
+      "date": "2026-08-31",
+      "branch": "본부",
+      "position": "조직차장",
+      "requester": "정윤기",
+      "substitute": "최현재",
+      "workDetails": "전남광주 집회참석",
+      "companion": "박문철 (본부장), 엄동기, 강태규",
+      "note": ""
+    },
+    {
+      "id": "seed-0831-namseo",
+      "date": "2026-08-31",
+      "branch": "본부",
+      "position": "지부장",
+      "requester": "황창연",
+      "substitute": "박정환",
+      "workDetails": "하길리404 KCC, 동화리 SGC, 서동50 우미, 가수동453 더샵아크시티, 병점서영플러스 - 5개현장 방문 및 미팅",
+      "companion": "김철",
+      "note": ""
+    },
+    {
+      "id": "seed-0901-bonbu-pss",
+      "date": "2026-09-01",
+      "branch": "본부",
+      "position": "조직부장",
+      "requester": "박승환",
+      "substitute": "조진명",
+      "workDetails": "제일건설 본사 관계자 미팅",
+      "companion": "본부장",
+      "note": ""
+    },
+    {
       "id": "seed-2026-09-01-bonjo-phj-sep",
       "date": "2026-09-01",
       "branch": "본조",
@@ -179,6 +124,50 @@
       "substitute": "서두석",
       "workDetails": "사무업무",
       "companion": "",
+      "note": ""
+    },
+    {
+      "id": "seed-2026-09-01-bonbu-jyk-jn",
+      "date": "2026-09-01",
+      "branch": "본부",
+      "position": "조직차장",
+      "requester": "정윤기",
+      "substitute": "최현재",
+      "workDetails": "전남광주 집회참석",
+      "companion": "박문철 (본부장), 엄동기, 강태규",
+      "note": ""
+    },
+    {
+      "id": "seed-0902-bonbu-mmg",
+      "date": "2026-09-02",
+      "branch": "본부",
+      "position": "부본부장",
+      "requester": "문민곤",
+      "substitute": "엄기재",
+      "workDetails": "금강교섭",
+      "companion": "본부장, 조직부장",
+      "note": ""
+    },
+    {
+      "id": "seed-0902-bonbu-pss",
+      "date": "2026-09-02",
+      "branch": "본부",
+      "position": "조직부장",
+      "requester": "박승환",
+      "substitute": "조진명",
+      "workDetails": "박승환 부장님 대체",
+      "companion": "본부장",
+      "note": ""
+    },
+    {
+      "id": "seed-0902-bonbu-pcs",
+      "date": "2026-09-02",
+      "branch": "본부",
+      "position": "사무장",
+      "requester": "박춘성",
+      "substitute": "윤성우",
+      "workDetails": "회계",
+      "companion": "한세환 사무차장",
       "note": ""
     },
     {
@@ -204,6 +193,17 @@
       "note": ""
     },
     {
+      "id": "seed-0903-bonbu-jyk",
+      "date": "2026-09-03",
+      "branch": "본부",
+      "position": "조직차장",
+      "requester": "정윤기",
+      "substitute": "최현재",
+      "workDetails": "수원 노안활동",
+      "companion": "이준영 (조직차장)",
+      "note": ""
+    },
+    {
       "id": "seed-2026-09-04-bonjo-phj-sep",
       "date": "2026-09-04",
       "branch": "본조",
@@ -212,28 +212,6 @@
       "substitute": "서두석",
       "workDetails": "사무업무",
       "companion": "",
-      "note": ""
-    },
-    {
-      "id": "seed-0907-bonbu-pss",
-      "date": "2026-09-07",
-      "branch": "본부",
-      "position": "조직부장",
-      "requester": "박승환",
-      "substitute": "조진명",
-      "workDetails": "제일타워공영 서완철이사 교섭",
-      "companion": "남부지부장, 우경원 조직부장",
-      "note": ""
-    },
-    {
-      "id": "rec-20260907-bonbu-wky",
-      "date": "2026-09-07",
-      "branch": "본부",
-      "position": "조직부장",
-      "requester": "우경원",
-      "substitute": "박정환",
-      "workDetails": "제일타워공영 교섭건",
-      "companion": "박승환부장님, 김우선지부장님",
       "note": ""
     },
     {
@@ -248,6 +226,17 @@
       "note": ""
     },
     {
+      "id": "seed-0907-bonbu-pss",
+      "date": "2026-09-07",
+      "branch": "본부",
+      "position": "조직부장",
+      "requester": "박승환",
+      "substitute": "조진명",
+      "workDetails": "제일타워공영 서완철이사 교섭",
+      "companion": "남부지부장, 우경원 조직부장",
+      "note": ""
+    },
+    {
       "id": "rec-20260907-bonjo-phj",
       "date": "2026-09-07",
       "branch": "본조",
@@ -256,6 +245,17 @@
       "substitute": "서두석",
       "workDetails": "본조 사무국업무",
       "companion": "",
+      "note": ""
+    },
+    {
+      "id": "rec-20260907-bonbu-wky",
+      "date": "2026-09-07",
+      "branch": "본부",
+      "position": "조직부장",
+      "requester": "우경원",
+      "substitute": "박정환",
+      "workDetails": "제일타워공영 교섭건",
+      "companion": "박승환부장님, 김우선지부장님",
       "note": ""
     },
     {
@@ -270,36 +270,14 @@
       "note": ""
     },
     {
-      "id": "rec-20260909-bonjo-phj",
+      "id": "rec-20260909-nambu-kws",
       "date": "2026-09-09",
-      "branch": "본조",
-      "position": "사무국장",
-      "requester": "박현진",
-      "substitute": "서두석",
-      "workDetails": "본조 사무국업무",
-      "companion": "",
-      "note": ""
-    },
-    {
-      "id": "rec-20260910-bonjo-phj",
-      "date": "2026-09-10",
-      "branch": "본조",
-      "position": "사무국장",
-      "requester": "박현진",
-      "substitute": "서두석",
-      "workDetails": "본조 사무국업무",
-      "companion": "",
-      "note": ""
-    },
-    {
-      "id": "rec-20260911-bonjo-phj",
-      "date": "2026-09-11",
-      "branch": "본조",
-      "position": "사무국장",
-      "requester": "박현진",
-      "substitute": "서두석",
-      "workDetails": "본조 사무국업무",
-      "companion": "",
+      "branch": "본부",
+      "position": "남부지부장",
+      "requester": "김우선",
+      "substitute": "김재선",
+      "workDetails": "안성한화데이터센타 저단가입찰 집회",
+      "companion": "김시삼 기사",
       "note": ""
     },
     {
@@ -314,14 +292,14 @@
       "note": ""
     },
     {
-      "id": "rec-20260910-bonjo-pss",
-      "date": "2026-09-10",
+      "id": "rec-20260909-bonjo-phj",
+      "date": "2026-09-09",
       "branch": "본조",
-      "position": "조직부장",
-      "requester": "박승환",
-      "substitute": "조진명",
-      "workDetails": "본부장님 동행 업무",
-      "companion": "본부장",
+      "position": "사무국장",
+      "requester": "박현진",
+      "substitute": "서두석",
+      "workDetails": "본조 사무국업무",
+      "companion": "",
       "note": ""
     },
     {
@@ -336,14 +314,25 @@
       "note": ""
     },
     {
-      "id": "rec-20260909-nambu-kws",
-      "date": "2026-09-09",
-      "branch": "본부",
-      "position": "남부지부장",
-      "requester": "김우선",
-      "substitute": "김재선",
-      "workDetails": "안성한화데이터센타 저단가입찰 집회",
-      "companion": "김시삼 기사",
+      "id": "rec-20260910-bonjo-pss",
+      "date": "2026-09-10",
+      "branch": "본조",
+      "position": "조직부장",
+      "requester": "박승환",
+      "substitute": "조진명",
+      "workDetails": "본부장님 동행 업무",
+      "companion": "본부장",
+      "note": ""
+    },
+    {
+      "id": "rec-20260910-bonjo-phj",
+      "date": "2026-09-10",
+      "branch": "본조",
+      "position": "사무국장",
+      "requester": "박현진",
+      "substitute": "서두석",
+      "workDetails": "본조 사무국업무",
+      "companion": "",
       "note": ""
     },
     {
@@ -369,6 +358,17 @@
       "note": ""
     },
     {
+      "id": "rec-20260911-bonjo-phj",
+      "date": "2026-09-11",
+      "branch": "본조",
+      "position": "사무국장",
+      "requester": "박현진",
+      "substitute": "서두석",
+      "workDetails": "본조 사무국업무",
+      "companion": "",
+      "note": ""
+    },
+    {
       "id": "rec-20260911-namseo-hcy",
       "date": "2026-09-11",
       "branch": "본부",
@@ -376,6 +376,72 @@
       "requester": "황창연",
       "substitute": "박정환",
       "workDetails": "병점태왕 현장방문및미팅,서영플러스현장방문및미팅,원동373-1.(소형)현장방문,남양리2226-5.(소형)현장방문및미팅",
+      "companion": "",
+      "note": ""
+    },
+    {
+      "id": "rec-20260912-bonbu-kiy",
+      "date": "2026-09-12",
+      "branch": "본부",
+      "position": "조합원",
+      "requester": "김인영",
+      "substitute": "엄동기",
+      "workDetails": "박현순조합원 장례지원",
+      "companion": "김태호조합원",
+      "note": "토요일"
+    },
+    {
+      "id": "rec-20260912-bonbu-kth",
+      "date": "2026-09-12",
+      "branch": "본부",
+      "position": "조합원",
+      "requester": "김태호",
+      "substitute": "이상건",
+      "workDetails": "박현순조합원 장례지원",
+      "companion": "김인영조합원",
+      "note": "토요일"
+    },
+    {
+      "id": "rec-20260914-bonbu-pss",
+      "date": "2026-09-14",
+      "branch": "본부",
+      "position": "조직부장",
+      "requester": "박승환",
+      "substitute": "조진명",
+      "workDetails": "제일타워공영 미팅",
+      "companion": "남부지부장",
+      "note": ""
+    },
+    {
+      "id": "rec-20260914-bonjo-phj",
+      "date": "2026-09-14",
+      "branch": "본조",
+      "position": "사무국장",
+      "requester": "박현진",
+      "substitute": "서두석",
+      "workDetails": "본조 사무국업무",
+      "companion": "",
+      "note": ""
+    },
+    {
+      "id": "rec-20260914-bonbu-wky",
+      "date": "2026-09-14",
+      "branch": "본부",
+      "position": "조직부장",
+      "requester": "우경원",
+      "substitute": "서재춘",
+      "workDetails": "제일타워공영 미팅",
+      "companion": "김우선지부장님, 박승환조직부장님",
+      "note": ""
+    },
+    {
+      "id": "rec-20260914-dongbu-jsi",
+      "date": "2026-09-14",
+      "branch": "본부",
+      "position": "지부장",
+      "requester": "정승일",
+      "substitute": "백승진",
+      "workDetails": "여주.양평현장 방문및미팅",
       "companion": "",
       "note": ""
     },
@@ -391,58 +457,14 @@
       "note": ""
     },
     {
-      "id": "rec-20260912-bonbu-kth",
-      "date": "2026-09-12",
-      "branch": "본부",
-      "position": "조합원",
-      "requester": "김태호",
-      "substitute": "이상건",
-      "workDetails": "박현순조합원 장례지원",
-      "companion": "김인영조합원",
-      "note": "토요일"
-    },
-    {
-      "id": "rec-20260912-bonbu-kiy",
-      "date": "2026-09-12",
-      "branch": "본부",
-      "position": "조합원",
-      "requester": "김인영",
-      "substitute": "엄동기",
-      "workDetails": "박현순조합원 장례지원",
-      "companion": "김태호조합원",
-      "note": "토요일"
-    },
-    {
-      "id": "rec-20260914-dongbu-jsi",
-      "date": "2026-09-14",
-      "branch": "본부",
-      "position": "지부장",
-      "requester": "정승일",
-      "substitute": "백승진",
-      "workDetails": "여주.양평현장 방문및미팅",
+      "id": "rec-20260915-bonjo-phj",
+      "date": "2026-09-15",
+      "branch": "본조",
+      "position": "사무국장",
+      "requester": "박현진",
+      "substitute": "서두석",
+      "workDetails": "본조 사무국업무",
       "companion": "",
-      "note": ""
-    },
-    {
-      "id": "rec-20260914-bonbu-pss",
-      "date": "2026-09-14",
-      "branch": "본부",
-      "position": "조직부장",
-      "requester": "박승환",
-      "substitute": "조진명",
-      "workDetails": "제일타워공영 미팅",
-      "companion": "남부지부장",
-      "note": ""
-    },
-    {
-      "id": "rec-20260914-bonbu-wky",
-      "date": "2026-09-14",
-      "branch": "본부",
-      "position": "조직부장",
-      "requester": "우경원",
-      "substitute": "서재춘",
-      "workDetails": "제일타워공영 미팅",
-      "companion": "김우선지부장님, 박승환조직부장님",
       "note": ""
     },
     {
@@ -457,28 +479,6 @@
       "note": ""
     },
     {
-      "id": "rec-20260914-bonjo-phj",
-      "date": "2026-09-14",
-      "branch": "본조",
-      "position": "사무국장",
-      "requester": "박현진",
-      "substitute": "서두석",
-      "workDetails": "본조 사무국업무",
-      "companion": "",
-      "note": ""
-    },
-    {
-      "id": "rec-20260915-bonjo-phj",
-      "date": "2026-09-15",
-      "branch": "본조",
-      "position": "사무국장",
-      "requester": "박현진",
-      "substitute": "서두석",
-      "workDetails": "본조 사무국업무",
-      "companion": "",
-      "note": ""
-    },
-    {
       "id": "rec-20260916-bonjo-phj",
       "date": "2026-09-16",
       "branch": "본조",
@@ -490,24 +490,13 @@
       "note": ""
     },
     {
-      "id": "rec-20260917-bonjo-phj",
-      "date": "2026-09-17",
-      "branch": "본조",
-      "position": "사무국장",
-      "requester": "박현진",
-      "substitute": "서두석",
-      "workDetails": "본조 사무국업무",
-      "companion": "",
-      "note": ""
-    },
-    {
-      "id": "rec-20260918-bonjo-phj",
-      "date": "2026-09-18",
-      "branch": "본조",
-      "position": "사무국장",
-      "requester": "박현진",
-      "substitute": "서두석",
-      "workDetails": "본조 사무국업무",
+      "id": "rec-20260916-bonbu-wky",
+      "date": "2026-09-16",
+      "branch": "본부",
+      "position": "조직차장",
+      "requester": "우경원",
+      "substitute": "조진명",
+      "workDetails": "노동부출석",
       "companion": "",
       "note": ""
     },
@@ -523,13 +512,13 @@
       "note": ""
     },
     {
-      "id": "rec-20260916-bonbu-wky",
-      "date": "2026-09-16",
-      "branch": "본부",
-      "position": "조직차장",
-      "requester": "우경원",
-      "substitute": "조진명",
-      "workDetails": "노동부출석",
+      "id": "rec-20260917-bonjo-phj",
+      "date": "2026-09-17",
+      "branch": "본조",
+      "position": "사무국장",
+      "requester": "박현진",
+      "substitute": "서두석",
+      "workDetails": "본조 사무국업무",
       "companion": "",
       "note": ""
     },
@@ -545,25 +534,14 @@
       "note": ""
     },
     {
-      "id": "rec-20260918-jungbu-ljb",
+      "id": "rec-20260918-bonjo-phj",
       "date": "2026-09-18",
-      "branch": "본부",
-      "position": "지부장",
-      "requester": "임지병",
-      "substitute": "이재성",
-      "workDetails": "지부 업무 및 현장활동",
+      "branch": "본조",
+      "position": "사무국장",
+      "requester": "박현진",
+      "substitute": "서두석",
+      "workDetails": "본조 사무국업무",
       "companion": "",
-      "note": ""
-    },
-    {
-      "id": "rec-20260918-bonbu-cyh",
-      "date": "2026-09-18",
-      "branch": "본부",
-      "position": "지부장",
-      "requester": "최양호",
-      "substitute": "서재춘",
-      "workDetails": "금곡동현장 소장미팅",
-      "companion": "안영진, 구상모",
       "note": ""
     },
     {
@@ -578,13 +556,13 @@
       "note": ""
     },
     {
-      "id": "rec-20260918-bonbu-hcy",
+      "id": "rec-20260918-jungbu-ljb",
       "date": "2026-09-18",
       "branch": "본부",
       "position": "지부장",
-      "requester": "황창연",
-      "substitute": "박정환",
-      "workDetails": "남서지부 관내활동",
+      "requester": "임지병",
+      "substitute": "이재성",
+      "workDetails": "지부 업무 및 현장활동",
       "companion": "",
       "note": ""
     },
@@ -600,6 +578,28 @@
       "note": ""
     },
     {
+      "id": "rec-20260918-bonbu-cyh",
+      "date": "2026-09-18",
+      "branch": "본부",
+      "position": "지부장",
+      "requester": "최양호",
+      "substitute": "서재춘",
+      "workDetails": "금곡동현장 소장미팅",
+      "companion": "안영진, 구상모",
+      "note": ""
+    },
+    {
+      "id": "rec-20260918-bonbu-hcy",
+      "date": "2026-09-18",
+      "branch": "본부",
+      "position": "지부장",
+      "requester": "황창연",
+      "substitute": "박정환",
+      "workDetails": "남서지부 관내활동",
+      "companion": "",
+      "note": ""
+    },
+    {
       "id": "rec-20260921-bonbu-pss",
       "date": "2026-09-21",
       "branch": "본부",
@@ -607,6 +607,17 @@
       "requester": "박승환",
       "substitute": "조진명",
       "workDetails": "리현건설 대표 미팅 (무인)",
+      "companion": "",
+      "note": ""
+    },
+    {
+      "id": "rec-20260921-bonjo-phj",
+      "date": "2026-09-21",
+      "branch": "본조",
+      "position": "사무국장",
+      "requester": "박현진",
+      "substitute": "서두석",
+      "workDetails": "본조사무국업무",
       "companion": "",
       "note": ""
     },
@@ -622,28 +633,6 @@
       "note": ""
     },
     {
-      "id": "rec-20260922-bonbu-wky",
-      "date": "2026-09-22",
-      "branch": "본부",
-      "position": "조직부장",
-      "requester": "우경원",
-      "substitute": "이일권",
-      "workDetails": "썬타워교섭",
-      "companion": "이우진 용인지부장",
-      "note": ""
-    },
-    {
-      "id": "rec-20260921-bonjo-phj",
-      "date": "2026-09-21",
-      "branch": "본조",
-      "position": "사무국장",
-      "requester": "박현진",
-      "substitute": "서두석",
-      "workDetails": "본조사무국업무",
-      "companion": "",
-      "note": ""
-    },
-    {
       "id": "rec-20260922-bonjo-phj",
       "date": "2026-09-22",
       "branch": "본조",
@@ -655,6 +644,17 @@
       "note": ""
     },
     {
+      "id": "rec-20260922-bonbu-wky",
+      "date": "2026-09-22",
+      "branch": "본부",
+      "position": "조직부장",
+      "requester": "우경원",
+      "substitute": "이일권",
+      "workDetails": "썬타워교섭",
+      "companion": "이우진 용인지부장",
+      "note": ""
+    },
+    {
       "id": "rec-20260923-bonjo-phj",
       "date": "2026-09-23",
       "branch": "본조",
@@ -662,17 +662,6 @@
       "requester": "박현진",
       "substitute": "서두석",
       "workDetails": "본조사무국업무",
-      "companion": "",
-      "note": ""
-    },
-    {
-      "id": "rec-20260928-bonbu-hcy",
-      "date": "2026-09-28",
-      "branch": "본부",
-      "position": "지부장",
-      "requester": "황창연",
-      "substitute": "박정환",
-      "workDetails": "관내현장활동,서영플러스미팅등",
       "companion": "",
       "note": ""
     },
@@ -699,6 +688,17 @@
       "note": ""
     },
     {
+      "id": "rec-20260928-bonbu-hcy",
+      "date": "2026-09-28",
+      "branch": "본부",
+      "position": "지부장",
+      "requester": "황창연",
+      "substitute": "박정환",
+      "workDetails": "관내현장활동,서영플러스미팅등",
+      "companion": "",
+      "note": ""
+    },
+    {
       "id": "rec-20260929-bonjo-phj",
       "date": "2026-09-29",
       "branch": "본조",
@@ -712,28 +712,6 @@
     {
       "id": "rec-20260930-bonjo-phj",
       "date": "2026-09-30",
-      "branch": "본조",
-      "position": "사무국장",
-      "requester": "박현진",
-      "substitute": "서두석",
-      "workDetails": "본조 사무국업무",
-      "companion": "",
-      "note": ""
-    },
-    {
-      "id": "rec-20261001-bonjo-phj",
-      "date": "2026-10-01",
-      "branch": "본조",
-      "position": "사무국장",
-      "requester": "박현진",
-      "substitute": "서두석",
-      "workDetails": "본조 사무국업무",
-      "companion": "",
-      "note": ""
-    },
-    {
-      "id": "rec-20261002-bonjo-phj",
-      "date": "2026-10-02",
       "branch": "본조",
       "position": "사무국장",
       "requester": "박현진",
@@ -765,6 +743,28 @@
       "note": ""
     },
     {
+      "id": "rec-20261001-bonjo-phj",
+      "date": "2026-10-01",
+      "branch": "본조",
+      "position": "사무국장",
+      "requester": "박현진",
+      "substitute": "서두석",
+      "workDetails": "본조 사무국업무",
+      "companion": "",
+      "note": ""
+    },
+    {
+      "id": "rec-20261002-bonjo-phj",
+      "date": "2026-10-02",
+      "branch": "본조",
+      "position": "사무국장",
+      "requester": "박현진",
+      "substitute": "서두석",
+      "workDetails": "본조 사무국업무",
+      "companion": "",
+      "note": ""
+    },
+    {
       "id": "rec-20261002-jungbu-ljb",
       "date": "2026-10-02",
       "branch": "본부",
@@ -787,28 +787,6 @@
       "note": ""
     },
     {
-      "id": "rec-20261007-bonjo-phj",
-      "date": "2026-10-07",
-      "branch": "본조",
-      "position": "사무국장",
-      "requester": "박현진",
-      "substitute": "서두석",
-      "workDetails": "본조 사무국업무",
-      "companion": "",
-      "note": ""
-    },
-    {
-      "id": "rec-20261008-bonjo-phj",
-      "date": "2026-10-08",
-      "branch": "본조",
-      "position": "사무국장",
-      "requester": "박현진",
-      "substitute": "서두석",
-      "workDetails": "본조 사무국업무",
-      "companion": "",
-      "note": ""
-    },
-    {
       "id": "rec-20261007-bonbu-mjs",
       "date": "2026-10-07",
       "branch": "본부",
@@ -817,6 +795,17 @@
       "substitute": "박정환",
       "workDetails": "노안활동",
       "companion": "정윤기 조직차장",
+      "note": ""
+    },
+    {
+      "id": "rec-20261007-bonjo-phj",
+      "date": "2026-10-07",
+      "branch": "본조",
+      "position": "사무국장",
+      "requester": "박현진",
+      "substitute": "서두석",
+      "workDetails": "본조 사무국업무",
+      "companion": "",
       "note": ""
     },
     {
@@ -842,17 +831,6 @@
       "note": ""
     },
     {
-      "id": "rec-20261008-bonbu-jyk",
-      "date": "2026-10-08",
-      "branch": "본부",
-      "position": "조직차장",
-      "requester": "정윤기",
-      "substitute": "도형래",
-      "workDetails": "수원 인계동 대흥, 연무동 창성 방문",
-      "companion": "문주식 조직차장",
-      "note": ""
-    },
-    {
       "id": "rec-20261008-bonbu-pss",
       "date": "2026-10-08",
       "branch": "본부",
@@ -861,6 +839,17 @@
       "substitute": "조진명",
       "workDetails": "썬타워 양대표 미팅",
       "companion": "본부장님",
+      "note": ""
+    },
+    {
+      "id": "rec-20261008-bonjo-phj",
+      "date": "2026-10-08",
+      "branch": "본조",
+      "position": "사무국장",
+      "requester": "박현진",
+      "substitute": "서두석",
+      "workDetails": "본조 사무국업무",
+      "companion": "",
       "note": ""
     },
     {
@@ -875,13 +864,24 @@
       "note": ""
     },
     {
-      "id": "rec-20261013-bonbu-lws",
-      "date": "2026-10-13",
+      "id": "rec-20261008-bonbu-jyk",
+      "date": "2026-10-08",
       "branch": "본부",
-      "position": "조직부장",
-      "requester": "이우성",
-      "substitute": "이경재",
-      "workDetails": "화성건기 대표미팅",
+      "position": "조직차장",
+      "requester": "정윤기",
+      "substitute": "도형래",
+      "workDetails": "수원 인계동 대흥, 연무동 창성 방문",
+      "companion": "문주식 조직차장",
+      "note": ""
+    },
+    {
+      "id": "rec-20261012-bonjo-phj",
+      "date": "2026-10-12",
+      "branch": "본조",
+      "position": "사무국장",
+      "requester": "박현진",
+      "substitute": "서두석",
+      "workDetails": "본조 사무국업무",
       "companion": "",
       "note": ""
     },
@@ -908,6 +908,50 @@
       "note": ""
     },
     {
+      "id": "rec-20261013-bonjo-phj",
+      "date": "2026-10-13",
+      "branch": "본조",
+      "position": "사무국장",
+      "requester": "박현진",
+      "substitute": "서두석",
+      "workDetails": "본조 사무국업무",
+      "companion": "",
+      "note": ""
+    },
+    {
+      "id": "rec-20261013-bonbu-lws",
+      "date": "2026-10-13",
+      "branch": "본부",
+      "position": "조직부장",
+      "requester": "이우성",
+      "substitute": "이경재",
+      "workDetails": "화성건기 대표미팅",
+      "companion": "",
+      "note": ""
+    },
+    {
+      "id": "rec-20261014-bonbu-pss",
+      "date": "2026-10-14",
+      "branch": "본부",
+      "position": "조직부장",
+      "requester": "박승환",
+      "substitute": "조진명",
+      "workDetails": "남산",
+      "companion": "이우성 조직부장 및 김우선남부지부장",
+      "note": ""
+    },
+    {
+      "id": "rec-20261014-bonjo-phj",
+      "date": "2026-10-14",
+      "branch": "본조",
+      "position": "사무국장",
+      "requester": "박현진",
+      "substitute": "서두석",
+      "workDetails": "본조 사무국업무",
+      "companion": "",
+      "note": ""
+    },
+    {
       "id": "rec-20261014-bonbu-jyk",
       "date": "2026-10-14",
       "branch": "본부",
@@ -930,15 +974,15 @@
       "note": ""
     },
     {
-      "id": "rec-20261014-bonbu-pss",
-      "date": "2026-10-14",
-      "branch": "본부",
-      "position": "조직부장",
-      "requester": "박승환",
-      "substitute": "조진명",
-      "workDetails": "남산",
-      "companion": "이우성 조직부장 및 김우선남부지부장",
-      "note": ""
+      "id": "rec-20261015-bonjo-mmg",
+      "date": "2026-10-15",
+      "branch": "본조",
+      "position": "부본부장",
+      "requester": "문민곤",
+      "substitute": "성경민",
+      "workDetails": "김길진조합원 변호사면담 자문차 동반외 본부사무업무",
+      "companion": "김길진조합원",
+      "note": "8월 노무사 미팅 분"
     },
     {
       "id": "rec-20261015-bonbu-pss",
@@ -952,14 +996,14 @@
       "note": ""
     },
     {
-      "id": "rec-20261015-bonbu-hcy",
+      "id": "rec-20261015-bonjo-phj",
       "date": "2026-10-15",
-      "branch": "본부",
-      "position": "지부장",
-      "requester": "황창연",
-      "substitute": "박정환",
-      "workDetails": "병점태왕현장, 서영플러스현장, 양산동 헤리티지자이, 오산소형현장 등 관내활동 및 미팅",
-      "companion": "김철",
+      "branch": "본조",
+      "position": "사무국장",
+      "requester": "박현진",
+      "substitute": "서두석",
+      "workDetails": "본조 사무국업무",
+      "companion": "",
       "note": ""
     },
     {
@@ -974,15 +1018,15 @@
       "note": ""
     },
     {
-      "id": "rec-20261015-bonjo-mmg",
+      "id": "rec-20261015-bonbu-hcy",
       "date": "2026-10-15",
-      "branch": "본조",
-      "position": "부본부장",
-      "requester": "문민곤",
-      "substitute": "성경민",
-      "workDetails": "김길진조합원 변호사면담 자문차 동반외 본부사무업무",
-      "companion": "김길진조합원",
-      "note": "8월 노무사 미팅 분"
+      "branch": "본부",
+      "position": "지부장",
+      "requester": "황창연",
+      "substitute": "박정환",
+      "workDetails": "병점태왕현장, 서영플러스현장, 양산동 헤리티지자이, 오산소형현장 등 관내활동 및 미팅",
+      "companion": "김철",
+      "note": ""
     },
     {
       "id": "rec-20261016-bonbu-pss",
@@ -993,6 +1037,17 @@
       "substitute": "조진명",
       "workDetails": "국영",
       "companion": "이우성 조직부장 및 김우선남부지부장",
+      "note": ""
+    },
+    {
+      "id": "rec-20261016-bonjo-phj",
+      "date": "2026-10-16",
+      "branch": "본조",
+      "position": "사무국장",
+      "requester": "박현진",
+      "substitute": "서두석",
+      "workDetails": "본조 사무국업무",
+      "companion": "",
       "note": ""
     },
     {
@@ -1018,6 +1073,17 @@
       "note": ""
     },
     {
+      "id": "rec-20261019-bonbu-mmg",
+      "date": "2026-10-19",
+      "branch": "본부",
+      "position": "부본부장",
+      "requester": "문민곤",
+      "substitute": "성경민",
+      "workDetails": "민노회의 외 방송장비 점검등",
+      "companion": "본부장",
+      "note": ""
+    },
+    {
       "id": "rec-20261019-bonjo-phj",
       "date": "2026-10-19",
       "branch": "본조",
@@ -1026,6 +1092,17 @@
       "substitute": "서두석",
       "workDetails": "본조 사무국업무",
       "companion": "",
+      "note": ""
+    },
+    {
+      "id": "rec-20261020-bonbu-mjs",
+      "date": "2026-10-20",
+      "branch": "본부",
+      "position": "조직차장",
+      "requester": "문주식",
+      "substitute": "이경재",
+      "workDetails": "노안활동",
+      "companion": "우경원 조직부장",
       "note": ""
     },
     {
@@ -1040,14 +1117,36 @@
       "note": ""
     },
     {
-      "id": "rec-20261019-bonbu-mmg",
-      "date": "2026-10-19",
+      "id": "rec-20261020-bonbu-wky",
+      "date": "2026-10-20",
       "branch": "본부",
-      "position": "부본부장",
-      "requester": "문민곤",
-      "substitute": "성경민",
-      "workDetails": "민노회의 외 방송장비 점검등",
-      "companion": "본부장",
+      "position": "조직부장",
+      "requester": "우경원",
+      "substitute": "조진명",
+      "workDetails": "민노공동투쟁 노안활동",
+      "companion": "문주식차장",
+      "note": ""
+    },
+    {
+      "id": "rec-20261020-bonbu-hdh",
+      "date": "2026-10-20",
+      "branch": "본부",
+      "position": "조직차장",
+      "requester": "홍대훈",
+      "substitute": "윤소담",
+      "workDetails": "북서지부 현장활동",
+      "companion": "북서지부장님",
+      "note": "대체조합원 원문: 윤소담 기사님"
+    },
+    {
+      "id": "rec-20261021-bonbu-lws",
+      "date": "2026-10-21",
+      "branch": "본부",
+      "position": "조직부장",
+      "requester": "이우성",
+      "substitute": "이경재",
+      "workDetails": "동일토건 본사집회 및 담당자 미팅",
+      "companion": "",
       "note": ""
     },
     {
@@ -1062,47 +1161,25 @@
       "note": "원문 분류: 용인지부"
     },
     {
-      "id": "rec-20261020-bonbu-hdh",
-      "date": "2026-10-20",
-      "branch": "본부",
-      "position": "조직차장",
-      "requester": "홍대훈",
-      "substitute": "윤소담",
-      "workDetails": "북서지부 현장활동",
-      "companion": "북서지부장님",
-      "note": "대체조합원 원문: 윤소담 기사님"
-    },
-    {
-      "id": "rec-20261020-bonbu-mjs",
-      "date": "2026-10-20",
+      "id": "rec-20261022-bonbu-mjs",
+      "date": "2026-10-22",
       "branch": "본부",
       "position": "조직차장",
       "requester": "문주식",
       "substitute": "이경재",
       "workDetails": "노안활동",
-      "companion": "우경원 조직부장",
+      "companion": "정윤기 조직차장",
       "note": ""
     },
     {
-      "id": "rec-20261020-bonbu-wky",
-      "date": "2026-10-20",
+      "id": "rec-20261022-bonbu-pss",
+      "date": "2026-10-22",
       "branch": "본부",
       "position": "조직부장",
-      "requester": "우경원",
+      "requester": "박승환",
       "substitute": "조진명",
-      "workDetails": "민노공동투쟁 노안활동",
-      "companion": "문주식차장",
-      "note": ""
-    },
-    {
-      "id": "rec-20261021-bonbu-lws",
-      "date": "2026-10-21",
-      "branch": "본부",
-      "position": "조직부장",
-      "requester": "이우성",
-      "substitute": "이경재",
-      "workDetails": "동일토건 본사집회 및 담당자 미팅",
-      "companion": "",
+      "workDetails": "소형 현장 활동",
+      "companion": "홍대훈, 김우선",
       "note": ""
     },
     {
@@ -1114,17 +1191,6 @@
       "substitute": "김재선",
       "workDetails": "지역대표자회의 및 관내 무인 현장 활동",
       "companion": "지부조직차장",
-      "note": ""
-    },
-    {
-      "id": "rec-20261022-bonbu-mjs",
-      "date": "2026-10-22",
-      "branch": "본부",
-      "position": "조직차장",
-      "requester": "문주식",
-      "substitute": "이경재",
-      "workDetails": "노안활동",
-      "companion": "정윤기 조직차장",
       "note": ""
     },
     {
@@ -1150,80 +1216,14 @@
       "note": ""
     },
     {
-      "id": "rec-20261023-bonbu-hdh",
+      "id": "rec-20261023-bonbu-pss",
       "date": "2026-10-23",
       "branch": "본부",
-      "position": "조직차장",
-      "requester": "홍대훈",
-      "substitute": "윤소담",
+      "position": "조직부장",
+      "requester": "박승환",
+      "substitute": "조진명",
       "workDetails": "해유 현장방문 및 활동",
-      "companion": "박승환 조직부장",
-      "note": ""
-    },
-    {
-      "id": "rec-20261012-bonjo-phj",
-      "date": "2026-10-12",
-      "branch": "본조",
-      "position": "사무국장",
-      "requester": "박현진",
-      "substitute": "서두석",
-      "workDetails": "본조 사무국업무",
-      "companion": "",
-      "note": ""
-    },
-    {
-      "id": "rec-20261013-bonjo-phj",
-      "date": "2026-10-13",
-      "branch": "본조",
-      "position": "사무국장",
-      "requester": "박현진",
-      "substitute": "서두석",
-      "workDetails": "본조 사무국업무",
-      "companion": "",
-      "note": ""
-    },
-    {
-      "id": "rec-20261014-bonjo-phj",
-      "date": "2026-10-14",
-      "branch": "본조",
-      "position": "사무국장",
-      "requester": "박현진",
-      "substitute": "서두석",
-      "workDetails": "본조 사무국업무",
-      "companion": "",
-      "note": ""
-    },
-    {
-      "id": "rec-20261015-bonjo-phj",
-      "date": "2026-10-15",
-      "branch": "본조",
-      "position": "사무국장",
-      "requester": "박현진",
-      "substitute": "서두석",
-      "workDetails": "본조 사무국업무",
-      "companion": "",
-      "note": ""
-    },
-    {
-      "id": "rec-20261016-bonjo-phj",
-      "date": "2026-10-16",
-      "branch": "본조",
-      "position": "사무국장",
-      "requester": "박현진",
-      "substitute": "서두석",
-      "workDetails": "본조 사무국업무",
-      "companion": "",
-      "note": ""
-    },
-    {
-      "id": "rec-20261023-bonbu-jyk",
-      "date": "2026-10-23",
-      "branch": "본부",
-      "position": "조직차장",
-      "requester": "정윤기",
-      "substitute": "도형래",
-      "workDetails": "성남 노안활동",
-      "companion": "이준영 조직차장",
+      "companion": "홍대훈, 김우선",
       "note": ""
     },
     {
@@ -1238,48 +1238,26 @@
       "note": ""
     },
     {
-      "id": "rec-20261022-bonbu-pss",
-      "date": "2026-10-22",
-      "branch": "본부",
-      "position": "조직부장",
-      "requester": "박승환",
-      "substitute": "조진명",
-      "workDetails": "소형 현장 활동",
-      "companion": "홍대훈, 김우선",
-      "note": ""
-    },
-    {
-      "id": "rec-20261023-bonbu-pss",
+      "id": "rec-20261023-bonbu-jyk",
       "date": "2026-10-23",
       "branch": "본부",
-      "position": "조직부장",
-      "requester": "박승환",
-      "substitute": "조진명",
-      "workDetails": "해유 현장방문 및 활동",
-      "companion": "홍대훈, 김우선",
+      "position": "조직차장",
+      "requester": "정윤기",
+      "substitute": "도형래",
+      "workDetails": "성남 노안활동",
+      "companion": "이준영 조직차장",
       "note": ""
     },
     {
-      "id": "rec-20261026-bonbu-cyh",
-      "date": "2026-10-26",
+      "id": "rec-20261023-bonbu-hdh",
+      "date": "2026-10-23",
       "branch": "본부",
-      "position": "지부장",
-      "requester": "최양호",
-      "substitute": "이상건",
-      "workDetails": "성남 시청 집회 및 미팅 예정",
-      "companion": "윤대식, 서재춘, 구상모",
-      "note": "예정"
-    },
-    {
-      "id": "rec-20261026-bonbu-jsi",
-      "date": "2026-10-26",
-      "branch": "본부",
-      "position": "지부장",
-      "requester": "정승일",
-      "substitute": "강대호",
-      "workDetails": "동부지부 · 이천일신건영 관계자 및 이천 관내 현장 파악",
-      "companion": "임재명",
-      "note": "원문 분류: 동부지부"
+      "position": "조직차장",
+      "requester": "홍대훈",
+      "substitute": "윤소담",
+      "workDetails": "해유 현장방문 및 활동",
+      "companion": "박승환 조직부장",
+      "note": ""
     },
     {
       "id": "rec-20261026-bonbu-pss",
@@ -1290,17 +1268,6 @@
       "substitute": "조진명",
       "workDetails": "민노와 현장 관련 미팅",
       "companion": "이우성 조직부장",
-      "note": ""
-    },
-    {
-      "id": "rec-20261026-bonbu-jyk",
-      "date": "2026-10-26",
-      "branch": "본부",
-      "position": "조직차장",
-      "requester": "정윤기",
-      "substitute": "도형래",
-      "workDetails": "북서 노안활동",
-      "companion": "엄기우 조직차장",
       "note": ""
     },
     {
@@ -1315,15 +1282,37 @@
       "note": ""
     },
     {
-      "id": "rec-20261027-bonbu-jyk",
-      "date": "2026-10-27",
+      "id": "rec-20261026-bonbu-jsi",
+      "date": "2026-10-26",
+      "branch": "본부",
+      "position": "지부장",
+      "requester": "정승일",
+      "substitute": "강대호",
+      "workDetails": "동부지부 · 이천일신건영 관계자 및 이천 관내 현장 파악",
+      "companion": "임재명",
+      "note": "원문 분류: 동부지부"
+    },
+    {
+      "id": "rec-20261026-bonbu-jyk",
+      "date": "2026-10-26",
       "branch": "본부",
       "position": "조직차장",
       "requester": "정윤기",
       "substitute": "도형래",
-      "workDetails": "성남 노안활동",
-      "companion": "우경원 조직부장, 엄기우 조직차장",
+      "workDetails": "북서 노안활동",
+      "companion": "엄기우 조직차장",
       "note": ""
+    },
+    {
+      "id": "rec-20261026-bonbu-cyh",
+      "date": "2026-10-26",
+      "branch": "본부",
+      "position": "지부장",
+      "requester": "최양호",
+      "substitute": "이상건",
+      "workDetails": "성남 시청 집회 및 미팅 예정",
+      "companion": "윤대식, 서재춘, 구상모",
+      "note": "예정"
     },
     {
       "id": "rec-20261027-bonbu-wky",
@@ -1337,14 +1326,14 @@
       "note": ""
     },
     {
-      "id": "rec-20261028-bonbu-cyh",
-      "date": "2026-10-28",
+      "id": "rec-20261027-bonbu-jyk",
+      "date": "2026-10-27",
       "branch": "본부",
-      "position": "지부장",
-      "requester": "최양호",
-      "substitute": "이상건",
-      "workDetails": "성남시청집회",
-      "companion": "박근성, 김부동",
+      "position": "조직차장",
+      "requester": "정윤기",
+      "substitute": "도형래",
+      "workDetails": "성남 노안활동",
+      "companion": "우경원 조직부장, 엄기우 조직차장",
       "note": ""
     },
     {
@@ -1359,14 +1348,14 @@
       "note": ""
     },
     {
-      "id": "rec-20261028-bonbu-hdh",
+      "id": "rec-20261028-bonbu-wky",
       "date": "2026-10-28",
       "branch": "본부",
-      "position": "조직차장",
-      "requester": "홍대훈",
-      "substitute": "윤소담",
-      "workDetails": "중앙TC 사무실 방문",
-      "companion": "박승환 조직부장",
+      "position": "조직부장",
+      "requester": "우경원",
+      "substitute": "이경재",
+      "workDetails": "북부소형노안활동",
+      "companion": "엄기우, 정윤기 차장",
       "note": ""
     },
     {
@@ -1381,14 +1370,36 @@
       "note": ""
     },
     {
-      "id": "rec-20261028-bonbu-wky",
+      "id": "rec-20261028-bonbu-cyh",
       "date": "2026-10-28",
+      "branch": "본부",
+      "position": "지부장",
+      "requester": "최양호",
+      "substitute": "이상건",
+      "workDetails": "성남시청집회",
+      "companion": "박근성, 김부동",
+      "note": ""
+    },
+    {
+      "id": "rec-20261028-bonbu-hdh",
+      "date": "2026-10-28",
+      "branch": "본부",
+      "position": "조직차장",
+      "requester": "홍대훈",
+      "substitute": "윤소담",
+      "workDetails": "중앙TC 사무실 방문",
+      "companion": "박승환 조직부장",
+      "note": ""
+    },
+    {
+      "id": "rec-20261030-bonbu-wky",
+      "date": "2026-10-30",
       "branch": "본부",
       "position": "조직부장",
       "requester": "우경원",
-      "substitute": "이경재",
-      "workDetails": "북부소형노안활동",
-      "companion": "엄기우, 정윤기 차장",
+      "substitute": "조진명",
+      "workDetails": "북부소형 노안 및 교섭",
+      "companion": "최양호 지부장",
       "note": ""
     },
     {
@@ -1401,6 +1412,17 @@
       "workDetails": "중부지부 · 대광건영 저단가입찰저지 집회, SM삼환 현장방문",
       "companion": "강의석 기사, 심창현 기사",
       "note": "원문 분류: 중부지부"
+    },
+    {
+      "id": "rec-20261030-bonbu-jyk",
+      "date": "2026-10-30",
+      "branch": "본부",
+      "position": "조직차장",
+      "requester": "정윤기",
+      "substitute": "도형래",
+      "workDetails": "성남 노안활동",
+      "companion": "엄기우 조직차장",
+      "note": ""
     },
     {
       "id": "rec-20261030-bonbu-cyh",
@@ -1425,26 +1447,15 @@
       "note": ""
     },
     {
-      "id": "rec-20261030-bonbu-jyk",
-      "date": "2026-10-30",
+      "id": "rec-20261102-bonbu-lwj",
+      "date": "2026-11-02",
       "branch": "본부",
-      "position": "조직차장",
-      "requester": "정윤기",
-      "substitute": "도형래",
-      "workDetails": "성남 노안활동",
-      "companion": "엄기우 조직차장",
-      "note": ""
-    },
-    {
-      "id": "rec-20261030-bonbu-wky",
-      "date": "2026-10-30",
-      "branch": "본부",
-      "position": "조직부장",
-      "requester": "우경원",
-      "substitute": "조진명",
-      "workDetails": "북부소형 노안 및 교섭",
-      "companion": "최양호 지부장",
-      "note": ""
+      "position": "지부장",
+      "requester": "이우진",
+      "substitute": "김응수",
+      "workDetails": "용인지부 · 원삼 동일하이빌 방문 및 관내 현장활동",
+      "companion": "양지훈",
+      "note": "원문 분류: 용인지부"
     },
     {
       "id": "rec-20261102-bonbu-cyh",
@@ -1458,15 +1469,15 @@
       "note": ""
     },
     {
-      "id": "rec-20261102-bonbu-lwj",
-      "date": "2026-11-02",
+      "id": "rec-20261103-bonbu-pss",
+      "date": "2026-11-03",
       "branch": "본부",
-      "position": "지부장",
-      "requester": "이우진",
-      "substitute": "김응수",
-      "workDetails": "용인지부 · 원삼 동일하이빌 방문 및 관내 현장활동",
-      "companion": "양지훈",
-      "note": "원문 분류: 용인지부"
+      "position": "조직부장",
+      "requester": "박승환",
+      "substitute": "조진명",
+      "workDetails": "한백산업 대표미팅",
+      "companion": "이우성 조직부장",
+      "note": ""
     },
     {
       "id": "rec-20261103-bonbu-lws",
@@ -1480,14 +1491,47 @@
       "note": ""
     },
     {
-      "id": "rec-20261103-bonbu-pss",
-      "date": "2026-11-03",
+      "id": "rec-20261104-bonbu-hdh",
+      "date": "2026-11-04",
       "branch": "본부",
-      "position": "조직부장",
-      "requester": "박승환",
-      "substitute": "조진명",
-      "workDetails": "한백산업 대표미팅",
-      "companion": "이우성 조직부장",
+      "position": "조직차장",
+      "requester": "홍대훈",
+      "substitute": "윤소담",
+      "workDetails": "소형 현장 활동",
+      "companion": "북서 지부장, 이준영 조직차장",
+      "note": ""
+    },
+    {
+      "id": "rec-20261105-bonbu-cyh",
+      "date": "2026-11-05",
+      "branch": "본부",
+      "position": "지부장",
+      "requester": "최양호",
+      "substitute": "이재성",
+      "workDetails": "금곡동복합청사 미팅",
+      "companion": "",
+      "note": ""
+    },
+    {
+      "id": "rec-20261105-bonbu-hdh",
+      "date": "2026-11-05",
+      "branch": "본부",
+      "position": "조직차장",
+      "requester": "홍대훈",
+      "substitute": "윤소담",
+      "workDetails": "소형 현장 활동",
+      "companion": "북서 지부장, 이준영 조직차장",
+      "note": ""
+    },
+    {
+      "id": "rec-20261106-bonbu-hdh",
+      "date": "2026-11-06",
+      "branch": "본부",
+      "position": "조직차장",
+      "requester": "홍대훈",
+      "substitute": "윤소담",
+      "workDetails": "북서활동",
+      "companion": "북서 지부장, 이준영 조직차장",
       "note": ""
     }
   ]
