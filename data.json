@@ -1513,6 +1513,28 @@
       "note": ""
     },
     {
+      "id": "rec-20261105-bonbu-pmc",
+      "date": "2026-11-05",
+      "branch": "본부",
+      "position": "본부장",
+      "requester": "박문철",
+      "substitute": "서울본부 홍정호",
+      "workDetails": "BMK 미팅",
+      "companion": "박승환",
+      "note": "원문: 대체요청; 대체조합원 '서울본부홍정호'"
+    },
+    {
+      "id": "rec-20261105-bonbu-pss",
+      "date": "2026-11-05",
+      "branch": "본부",
+      "position": "조직부장",
+      "requester": "박승환",
+      "substitute": "조진명",
+      "workDetails": "BMK 미팅",
+      "companion": "본부장",
+      "note": ""
+    },
+    {
       "id": "rec-20261105-bonbu-cyh",
       "date": "2026-11-05",
       "branch": "본부",
@@ -1535,6 +1557,17 @@
       "note": ""
     },
     {
+      "id": "rec-20261106-bonbu-pss",
+      "date": "2026-11-06",
+      "branch": "본부",
+      "position": "조직부장",
+      "requester": "박승환",
+      "substitute": "조진명",
+      "workDetails": "민노 조직부 미팅",
+      "companion": "이우성 조직부장",
+      "note": ""
+    },
+    {
       "id": "rec-20261106-bonbu-hdh",
       "date": "2026-11-06",
       "branch": "본부",
@@ -1543,6 +1576,39 @@
       "substitute": "윤소담",
       "workDetails": "북서활동",
       "companion": "북서 지부장, 이준영 조직차장",
+      "note": ""
+    },
+    {
+      "id": "rec-20261106-bonbu-hcy",
+      "date": "2026-11-06",
+      "branch": "본부",
+      "position": "지부장",
+      "requester": "황창연",
+      "substitute": "신우개발 직영",
+      "workDetails": "향남 KCC 저가입찰 규탄결의대회, 서영플러스 현장방문 및 미팅",
+      "companion": "김삼성, 김철, 황창연",
+      "note": "원문: 남서지부 대체보고; 대체조합원 표기 '신우개발 직영'"
+    },
+    {
+      "id": "rec-20261109-bonbu-pss",
+      "date": "2026-11-09",
+      "branch": "본부",
+      "position": "조직부장",
+      "requester": "박승환",
+      "substitute": "조진명",
+      "workDetails": "동양 미팅",
+      "companion": "본부장",
+      "note": ""
+    },
+    {
+      "id": "rec-20261109-bonbu-cyh",
+      "date": "2026-11-09",
+      "branch": "본부",
+      "position": "지부장",
+      "requester": "최양호",
+      "substitute": "이재성",
+      "workDetails": "동양타워 미팅",
+      "companion": "박문철, 박승환",
       "note": ""
     }
   ]
