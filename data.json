@@ -1612,6 +1612,28 @@
       "note": "원문: 남서지부 대체보고; 대체조합원 표기 '신우개발 직영'"
     },
     {
+      "id": "rec-20261107-bonjo-pmc",
+      "date": "2026-11-07",
+      "branch": "본조",
+      "position": "본부장",
+      "requester": "박문철",
+      "substitute": "임재현",
+      "workDetails": "노동자대회 임대사",
+      "companion": "",
+      "note": "원문: 대체요청"
+    },
+    {
+      "id": "rec-20261109-bonbu-pmc",
+      "date": "2026-11-09",
+      "branch": "본부",
+      "position": "본부장",
+      "requester": "박문철",
+      "substitute": "임재현",
+      "workDetails": "노동자대회 임대사 :동양엔지니어링교섭",
+      "companion": "북부 최양호, 박승환 조직부장",
+      "note": "원문: 대체요청"
+    },
+    {
       "id": "rec-20261109-bonbu-pss",
       "date": "2026-11-09",
       "branch": "본부",
@@ -1631,6 +1653,28 @@
       "substitute": "이재성",
       "workDetails": "동양타워 미팅",
       "companion": "박문철, 박승환",
+      "note": ""
+    },
+    {
+      "id": "rec-20261109-bonbu-hdh",
+      "date": "2026-11-09",
+      "branch": "본부",
+      "position": "조직차장",
+      "requester": "홍대훈",
+      "substitute": "윤소담",
+      "workDetails": "북서 활동",
+      "companion": "북서 지부장",
+      "note": ""
+    },
+    {
+      "id": "rec-20261110-bonbu-hdh",
+      "date": "2026-11-10",
+      "branch": "본부",
+      "position": "조직차장",
+      "requester": "홍대훈",
+      "substitute": "윤소담",
+      "workDetails": "북서 활동",
+      "companion": "북서 지부장",
       "note": ""
     }
   ]
