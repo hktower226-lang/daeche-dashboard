@@ -1667,6 +1667,39 @@
       "note": ""
     },
     {
+      "id": "rec-20261110-bonjo-pmc",
+      "date": "2026-11-10",
+      "branch": "본조",
+      "position": "본부장",
+      "requester": "박문철",
+      "substitute": "서울본부 임재현",
+      "workDetails": "본조업무",
+      "companion": "",
+      "note": "원문: 대체요청; 임대사 항목 공란"
+    },
+    {
+      "id": "rec-20261110-bonbu-pss",
+      "date": "2026-11-10",
+      "branch": "본부",
+      "position": "조직부장",
+      "requester": "박승환",
+      "substitute": "조진명",
+      "workDetails": "국영, 화성건기 미팅",
+      "companion": "이우성 조직부장",
+      "note": ""
+    },
+    {
+      "id": "rec-20261110-bonbu-lws",
+      "date": "2026-11-10",
+      "branch": "본부",
+      "position": "조직부장",
+      "requester": "이우성",
+      "substitute": "이경재",
+      "workDetails": "국영타워, 화성건기 미팅",
+      "companion": "박승환 조직부장",
+      "note": ""
+    },
+    {
       "id": "rec-20261110-bonbu-hdh",
       "date": "2026-11-10",
       "branch": "본부",
@@ -1675,6 +1708,28 @@
       "substitute": "윤소담",
       "workDetails": "북서 활동",
       "companion": "북서 지부장",
+      "note": ""
+    },
+    {
+      "id": "rec-20261111-bonbu-pss",
+      "date": "2026-11-11",
+      "branch": "본부",
+      "position": "조직부장",
+      "requester": "박승환",
+      "substitute": "조진명",
+      "workDetails": "남산공영 미팅",
+      "companion": "이우성 조직부장",
+      "note": ""
+    },
+    {
+      "id": "rec-20261113-bonbu-pss",
+      "date": "2026-11-13",
+      "branch": "본부",
+      "position": "조직부장",
+      "requester": "박승환",
+      "substitute": "조진명",
+      "workDetails": "유건설 방문미팅",
+      "companion": "",
       "note": ""
     }
   ]
