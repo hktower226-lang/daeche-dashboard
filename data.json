@@ -1722,15 +1722,92 @@
       "note": ""
     },
     {
+      "id": "rec-20261111-bonbu-lws",
+      "date": "2026-11-11",
+      "branch": "본부",
+      "position": "조직부장",
+      "requester": "이우성",
+      "substitute": "이경재",
+      "workDetails": "남산공영 미팅",
+      "companion": "박승환 조직부장",
+      "note": ""
+    },
+    {
+      "id": "rec-20261111-bonbu-hdh",
+      "date": "2026-11-11",
+      "branch": "본부",
+      "position": "조직차장",
+      "requester": "홍대훈",
+      "substitute": "윤소담",
+      "workDetails": "소형현장 활동",
+      "companion": "",
+      "note": ""
+    },
+    {
+      "id": "rec-20261112-bonjo-pmc",
+      "date": "2026-11-12",
+      "branch": "본조",
+      "position": "본부장",
+      "requester": "박문철",
+      "substitute": "서울본부 임재현",
+      "workDetails": "전국 민·한 미팅",
+      "companion": "",
+      "note": "원문 분류: 본조·본부 (날짜 순서에 따라 12일 본조로 배정)"
+    },
+    {
+      "id": "rec-20261112-bonbu-pss",
+      "date": "2026-11-12",
+      "branch": "본부",
+      "position": "조직부장",
+      "requester": "박승환",
+      "substitute": "이일권",
+      "workDetails": "소형 리현건설 대표 미팅",
+      "companion": "본인",
+      "note": "원문 업무동반: 본인"
+    },
+    {
+      "id": "rec-20261113-bonbu-mmg",
+      "date": "2026-11-13",
+      "branch": "본부",
+      "position": "부본부장",
+      "requester": "문민곤",
+      "substitute": "성경민",
+      "workDetails": "집회보이스 작성, 사무국장 면담, 민노교섭",
+      "companion": "본부장, 조직부장님들",
+      "note": ""
+    },
+    {
+      "id": "rec-20261113-bonbu-pmc",
+      "date": "2026-11-13",
+      "branch": "본부",
+      "position": "본부장",
+      "requester": "박문철",
+      "substitute": "서울본부 임재현",
+      "workDetails": "경기 민·한 미팅",
+      "companion": "",
+      "note": "원문 분류: 본조·본부 (날짜 순서에 따라 13일 본부로 배정)"
+    },
+    {
       "id": "rec-20261113-bonbu-pss",
       "date": "2026-11-13",
       "branch": "본부",
       "position": "조직부장",
       "requester": "박승환",
-      "substitute": "조진명",
-      "workDetails": "유건설 방문미팅",
-      "companion": "",
-      "note": ""
+      "substitute": "이일권",
+      "workDetails": "유건설 대표미팅, 민노미팅",
+      "companion": "본부장, 이우성 조직부장",
+      "note": "11월 11일 추가보고에 따라 기존 조진명 대체기록 정정"
+    },
+    {
+      "id": "rec-20261113-bonbu-hcy",
+      "date": "2026-11-13",
+      "branch": "본부",
+      "position": "지부장",
+      "requester": "황창연",
+      "substitute": "신우개발 직영기사",
+      "workDetails": "서울 쌍용건설 본사 집회",
+      "companion": "김삼성, 최영식, 황창연",
+      "note": "원문: 남서지부 대체보고; 용인 방송차 사용; 대체조합원 개인 성명 미기재"
     }
   ]
 }
