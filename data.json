@@ -1799,6 +1799,17 @@
       "note": ""
     },
     {
+      "id": "rec-20261113-bonbu-kws",
+      "date": "2026-11-13",
+      "branch": "본부",
+      "position": "지부장",
+      "requester": "김우선",
+      "substitute": "신우개발직원",
+      "workDetails": "남부지부 · 대전 계룡건설 본사 집회",
+      "companion": "김우선, 김시삼, 이종훈",
+      "note": "원문 분류: 남부지부; 대체조합원 개인 성명 미기재"
+    },
+    {
       "id": "rec-20261113-bonbu-mmg",
       "date": "2026-11-13",
       "branch": "본부",
@@ -1830,6 +1841,28 @@
       "workDetails": "유건설 대표미팅, 민노미팅",
       "companion": "본부장, 이우성 조직부장",
       "note": "11월 11일 추가보고에 따라 기존 조진명 대체기록 정정"
+    },
+    {
+      "id": "rec-20261113-bonbu-ldj",
+      "date": "2026-11-13",
+      "branch": "본부",
+      "position": "서부지부장",
+      "requester": "이동준",
+      "substitute": "김재선",
+      "workDetails": "서부지부 · 동부건설 본사 집회",
+      "companion": "임한종, 정민섭",
+      "note": "원문 분류: 서부지부"
+    },
+    {
+      "id": "rec-20261113-bonbu-cyh",
+      "date": "2026-11-13",
+      "branch": "본부",
+      "position": "지부장",
+      "requester": "최양호",
+      "substitute": "이재성",
+      "workDetails": "대우건설 본사 집회",
+      "companion": "임재훈, 허수창",
+      "note": ""
     },
     {
       "id": "rec-20261113-bonbu-hdh",
