@@ -1885,6 +1885,50 @@
       "workDetails": "서울 쌍용건설 본사 집회",
       "companion": "김삼성, 최영식, 황창연",
       "note": "원문: 남서지부 대체보고; 용인 방송차 사용; 대체조합원 개인 성명 미기재"
+    },
+    {
+      "id": "rec-20261116-bonbu-pmc",
+      "date": "2026-11-16",
+      "branch": "본부",
+      "position": "본부장",
+      "requester": "박문철",
+      "substitute": "홍정호",
+      "workDetails": "쌍용건설 집회",
+      "companion": "",
+      "note": "원문 대체조합원 소속: 서울본부"
+    },
+    {
+      "id": "rec-20261116-bonbu-jsi",
+      "date": "2026-11-16",
+      "branch": "본부",
+      "position": "지부장",
+      "requester": "정승일",
+      "substitute": "강대호",
+      "workDetails": "동부지부 · 여주·이천 기존 및 신규현장 방문",
+      "companion": "임재명 기사",
+      "note": "원문 분류: 동부지부"
+    },
+    {
+      "id": "rec-20261116-bonbu-hdh",
+      "date": "2026-11-16",
+      "branch": "본부",
+      "position": "조직차장",
+      "requester": "홍대훈",
+      "substitute": "윤소담",
+      "workDetails": "서부 시흥 경안건설 교섭",
+      "companion": "",
+      "note": ""
+    },
+    {
+      "id": "rec-20261117-bonbu-pmc",
+      "date": "2026-11-17",
+      "branch": "본부",
+      "position": "본부장",
+      "requester": "박문철",
+      "substitute": "임재현",
+      "workDetails": "U건설 대표교섭",
+      "companion": "",
+      "note": "원문 대체조합원 소속: 서울본부"
     }
   ]
 }
