@@ -1876,15 +1876,15 @@
       "note": ""
     },
     {
-      "id": "rec-20261113-bonbu-hcy",
-      "date": "2026-11-13",
+      "id": "rec-20261116-bonbu-kws",
+      "date": "2026-11-16",
       "branch": "본부",
       "position": "지부장",
-      "requester": "황창연",
-      "substitute": "신우개발 직영기사",
-      "workDetails": "서울 쌍용건설 본사 집회",
-      "companion": "김삼성, 최영식, 황창연",
-      "note": "원문: 남서지부 대체보고; 용인 방송차 사용; 대체조합원 개인 성명 미기재"
+      "requester": "김우선",
+      "substitute": "신우직영기사",
+      "workDetails": "남부지부 · 계룡건설 회장 자택 집회, 계룡건설 대전 본사 집회",
+      "companion": "김시삼, 권강구, 이종훈",
+      "note": "원문 분류: 남부지부; 대체조합원 개인 성명 미기재"
     },
     {
       "id": "rec-20261116-bonbu-pmc",
@@ -1929,6 +1929,28 @@
       "workDetails": "U건설 대표교섭",
       "companion": "",
       "note": "원문 대체조합원 소속: 서울본부"
+    },
+    {
+      "id": "rec-20261117-bonbu-ldj",
+      "date": "2026-11-17",
+      "branch": "본부",
+      "position": "서부지부장",
+      "requester": "이동준",
+      "substitute": "김재선",
+      "workDetails": "서부지부 · 동부, 대우건설 집회",
+      "companion": "윤성우, 배형만, 이원열, 허수창",
+      "note": "원문 분류: 서부지부"
+    },
+    {
+      "id": "rec-20261118-bonbu-lwj",
+      "date": "2026-11-18",
+      "branch": "본부",
+      "position": "지부장",
+      "requester": "이우진",
+      "substitute": "김응수",
+      "workDetails": "용인지부 · 관내 현장활동",
+      "companion": "정재호",
+      "note": "원문 분류: 용인지부"
     }
   ]
 }
