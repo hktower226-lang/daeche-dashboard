@@ -1969,10 +1969,10 @@
       "branch": "본부",
       "position": "조직부장",
       "requester": "우경원",
-      "substitute": "이경재",
+      "substitute": "김안섭",
       "workDetails": "대우건설 본사 집회",
       "companion": "",
-      "note": ""
+      "note": "대체기사 정정: 이경재 → 김안섭"
     },
     {
       "id": "rec-20261117-bonbu-ldj",
@@ -1984,6 +1984,50 @@
       "workDetails": "서부지부 · 동부, 대우건설 집회",
       "companion": "윤성우, 배형만, 이원열, 허수창",
       "note": "원문 분류: 서부지부"
+    },
+    {
+      "id": "rec-20261117-bonbu-lws",
+      "date": "2026-11-17",
+      "branch": "본부",
+      "position": "조직부장",
+      "requester": "이우성",
+      "substitute": "이경재",
+      "workDetails": "야후건기 미팅",
+      "companion": "남성우 부본부장, 임지병, 이우진",
+      "note": ""
+    },
+    {
+      "id": "rec-20261117-bonbu-lwj",
+      "date": "2026-11-17",
+      "branch": "본부",
+      "position": "지부장",
+      "requester": "이우진",
+      "substitute": "김창규",
+      "workDetails": "용인지부 · 야후건기 미팅",
+      "companion": "남성우 부본부장, 임지병 지부장, 이우성 조직부장",
+      "note": "원문 분류: 용인지부"
+    },
+    {
+      "id": "rec-20261117-bonbu-ljb",
+      "date": "2026-11-17",
+      "branch": "본부",
+      "position": "지부장",
+      "requester": "임지병",
+      "substitute": "이재성",
+      "workDetails": "중부지부 · 야후건기 미팅",
+      "companion": "남성우 부본부장, 이우성 조직부장, 이우진 용인지부장",
+      "note": "원문 분류: 중부지부"
+    },
+    {
+      "id": "rec-20261117-bonbu-jyk",
+      "date": "2026-11-17",
+      "branch": "본부",
+      "position": "조직차장",
+      "requester": "정윤기",
+      "substitute": "도형래",
+      "workDetails": "시흥 노안활동",
+      "companion": "엄기우 조직차장",
+      "note": ""
     },
     {
       "id": "rec-20261118-bonbu-lwj",
@@ -2002,10 +2046,10 @@
       "branch": "본부",
       "position": "조직부장",
       "requester": "우경원",
-      "substitute": "이경재",
+      "substitute": "김안섭",
       "workDetails": "대우건설 본사 집회",
       "companion": "",
-      "note": ""
+      "note": "대체기사 정정: 이경재 → 김안섭"
     }
   ]
 }
