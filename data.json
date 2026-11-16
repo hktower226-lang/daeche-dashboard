@@ -1964,26 +1964,15 @@
       "note": "16·17일 통합 보고; 일자별 업무 구분 미기재"
     },
     {
-      "id": "rec-20261117-bonbu-wky",
-      "date": "2026-11-17",
-      "branch": "본부",
-      "position": "조직부장",
-      "requester": "우경원",
-      "substitute": "김안섭",
-      "workDetails": "대우건설 본사 집회",
-      "companion": "",
-      "note": "대체기사 정정: 이경재 → 김안섭"
-    },
-    {
       "id": "rec-20261117-bonbu-ldj",
       "date": "2026-11-17",
       "branch": "본부",
       "position": "서부지부장",
       "requester": "이동준",
       "substitute": "김재선",
-      "workDetails": "서부지부 · 동부, 대우건설 집회",
-      "companion": "윤성우, 배형만, 이원열, 허수창",
-      "note": "원문 분류: 서부지부"
+      "workDetails": "서부지부 · 현장 활동 및 노안활동",
+      "companion": "엄기우, 정윤기",
+      "note": "원문 분류: 서부지부; 11월 16일 정정 보고 반영"
     },
     {
       "id": "rec-20261117-bonbu-lws",
@@ -2039,17 +2028,6 @@
       "workDetails": "용인지부 · 관내 현장활동",
       "companion": "정재호",
       "note": "원문 분류: 용인지부"
-    },
-    {
-      "id": "rec-20261120-bonbu-wky",
-      "date": "2026-11-20",
-      "branch": "본부",
-      "position": "조직부장",
-      "requester": "우경원",
-      "substitute": "김안섭",
-      "workDetails": "대우건설 본사 집회",
-      "companion": "",
-      "note": "대체기사 정정: 이경재 → 김안섭"
     }
   ]
 }
