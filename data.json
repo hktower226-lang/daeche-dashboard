@@ -2019,6 +2019,17 @@
       "note": ""
     },
     {
+      "id": "rec-20261118-bonbu-pmc",
+      "date": "2026-11-18",
+      "branch": "본부",
+      "position": "본부장",
+      "requester": "박문철",
+      "substitute": "임재현",
+      "workDetails": "한불교섭",
+      "companion": "",
+      "note": "원문: 대체요청; 대체조합원 서울본부 소속"
+    },
+    {
       "id": "rec-20261118-bonbu-lwj",
       "date": "2026-11-18",
       "branch": "본부",
@@ -2028,6 +2039,17 @@
       "workDetails": "용인지부 · 관내 현장활동",
       "companion": "정재호",
       "note": "원문 분류: 용인지부"
+    },
+    {
+      "id": "rec-20261118-bonbu-hdh",
+      "date": "2026-11-18",
+      "branch": "본부",
+      "position": "조직차장",
+      "requester": "홍대훈",
+      "substitute": "윤소담",
+      "workDetails": "소형 현장 활동",
+      "companion": "",
+      "note": ""
     }
   ]
 }
