@@ -1948,9 +1948,9 @@
       "position": "본부장",
       "requester": "박문철",
       "substitute": "임재현",
-      "workDetails": "U건설 대표교섭",
+      "workDetails": "수도권회의",
       "companion": "",
-      "note": "원문 대체조합원 소속: 서울본부"
+      "note": "원문 대체조합원 소속: 서울본부; 11월 18일 업무내용 정정"
     },
     {
       "id": "rec-20261117-bonbu-pss",
@@ -2052,6 +2052,17 @@
       "note": ""
     },
     {
+      "id": "rec-20261119-bonbu-pss",
+      "date": "2026-11-19",
+      "branch": "본부",
+      "position": "조직부장",
+      "requester": "박승환",
+      "substitute": "이일권",
+      "workDetails": "오투 미팅",
+      "companion": "이우성 조직부장",
+      "note": ""
+    },
+    {
       "id": "rec-20261119-bonbu-ldj",
       "date": "2026-11-19",
       "branch": "본부",
@@ -2061,6 +2072,17 @@
       "workDetails": "서부지부 · (소형) 경안종합건설 미팅",
       "companion": "홍대훈 차장",
       "note": "원문 분류: 서부지부"
+    },
+    {
+      "id": "rec-20261119-bonbu-lws",
+      "date": "2026-11-19",
+      "branch": "본부",
+      "position": "조직부장",
+      "requester": "이우성",
+      "substitute": "이경재",
+      "workDetails": "오투 미팅",
+      "companion": "박승환 조직부장",
+      "note": ""
     },
     {
       "id": "rec-20261119-bonbu-lwj",
@@ -2074,15 +2096,26 @@
       "note": "원문 분류: 용인지부"
     },
     {
+      "id": "rec-20261119-bonbu-hdh",
+      "date": "2026-11-19",
+      "branch": "본부",
+      "position": "조직차장",
+      "requester": "홍대훈",
+      "substitute": "윤소담",
+      "workDetails": "서부 경안 미팅 및 활동",
+      "companion": "서부지부장",
+      "note": ""
+    },
+    {
       "id": "rec-20261120-bonbu-kjs",
       "date": "2026-11-20",
       "branch": "본부",
       "position": "지부장",
       "requester": "김정섭",
-      "substitute": "공정호",
+      "substitute": "김안섭",
       "workDetails": "북서지부 · 재성건설 교섭(소형), 북서 관내 현장 활동",
       "companion": "홍대훈 조직차장",
-      "note": "원문 분류: 북서지부"
+      "note": "원문 분류: 북서지부; 11월 18일 정정: 대체기사 공정호 → 김안섭"
     },
     {
       "id": "rec-20261120-bonbu-cyh",
