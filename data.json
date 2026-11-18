@@ -2050,6 +2050,50 @@
       "workDetails": "소형 현장 활동",
       "companion": "",
       "note": ""
+    },
+    {
+      "id": "rec-20261119-bonbu-ldj",
+      "date": "2026-11-19",
+      "branch": "본부",
+      "position": "서부지부장",
+      "requester": "이동준",
+      "substitute": "김재선",
+      "workDetails": "서부지부 · (소형) 경안종합건설 미팅",
+      "companion": "홍대훈 차장",
+      "note": "원문 분류: 서부지부"
+    },
+    {
+      "id": "rec-20261119-bonbu-lwj",
+      "date": "2026-11-19",
+      "branch": "본부",
+      "position": "지부장",
+      "requester": "이우진",
+      "substitute": "김태준",
+      "workDetails": "용인지부 · 관내 현장활동 및 지역대표자 회의",
+      "companion": "정재호",
+      "note": "원문 분류: 용인지부"
+    },
+    {
+      "id": "rec-20261120-bonbu-kjs",
+      "date": "2026-11-20",
+      "branch": "본부",
+      "position": "지부장",
+      "requester": "김정섭",
+      "substitute": "공정호",
+      "workDetails": "북서지부 · 재성건설 교섭(소형), 북서 관내 현장 활동",
+      "companion": "홍대훈 조직차장",
+      "note": "원문 분류: 북서지부"
+    },
+    {
+      "id": "rec-20261120-bonbu-cyh",
+      "date": "2026-11-20",
+      "branch": "본부",
+      "position": "지부장",
+      "requester": "최양호",
+      "substitute": "이재성",
+      "workDetails": "낙생DL 현장방문 및 소형현장 방문",
+      "companion": "",
+      "note": ""
     }
   ]
 }
