@@ -2127,6 +2127,17 @@
       "workDetails": "낙생DL 현장방문 및 소형현장 방문",
       "companion": "",
       "note": ""
+    },
+    {
+      "id": "rec-20261120-bonbu-hdh",
+      "date": "2026-11-20",
+      "branch": "본부",
+      "position": "조직차장",
+      "requester": "홍대훈",
+      "substitute": "윤소담",
+      "workDetails": "북서 교섭 및 활동",
+      "companion": "북서지부장",
+      "note": ""
     }
   ]
 }
