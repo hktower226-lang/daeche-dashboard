@@ -2138,6 +2138,83 @@
       "workDetails": "북서 교섭 및 활동",
       "companion": "북서지부장",
       "note": ""
+    },
+    {
+      "id": "rec-20261123-bonjo-pmc",
+      "date": "2026-11-23",
+      "branch": "본조",
+      "position": "본부장",
+      "requester": "박문철",
+      "substitute": "임재현",
+      "workDetails": "본조업무",
+      "companion": "",
+      "note": "대체조합원 서울본부 소속"
+    },
+    {
+      "id": "rec-20261124-bonbu-pmc",
+      "date": "2026-11-24",
+      "branch": "본부",
+      "position": "본부장",
+      "requester": "박문철",
+      "substitute": "임재현",
+      "workDetails": "BMK교섭",
+      "companion": "박승환",
+      "note": "대체조합원 서울본부 소속"
+    },
+    {
+      "id": "rec-20261124-bonbu-ldj",
+      "date": "2026-11-24",
+      "branch": "본부",
+      "position": "서부지부장",
+      "requester": "이동준",
+      "substitute": "김재선",
+      "workDetails": "서부지부 · 거모지구 BS한양 관계자 미팅 및 현장활동",
+      "companion": "이우성 부장",
+      "note": "원문 분류: 서부지부"
+    },
+    {
+      "id": "rec-20261124-bonbu-lws",
+      "date": "2026-11-24",
+      "branch": "본부",
+      "position": "조직부장",
+      "requester": "이우성",
+      "substitute": "이경재",
+      "workDetails": "서부 한양현장 방문 외",
+      "companion": "이동준 지부장",
+      "note": ""
+    },
+    {
+      "id": "rec-20261124-bonbu-ljb",
+      "date": "2026-11-24",
+      "branch": "본부",
+      "position": "지부장",
+      "requester": "임지병",
+      "substitute": "이재성",
+      "workDetails": "중부지부 · 관내 현장방문, 교섭",
+      "companion": "심창현",
+      "note": "원문 분류: 중부지부"
+    },
+    {
+      "id": "rec-20261124-bonbu-hdh",
+      "date": "2026-11-24",
+      "branch": "본부",
+      "position": "조직차장",
+      "requester": "홍대훈",
+      "substitute": "윤소담",
+      "workDetails": "소형 현장 활동",
+      "companion": "",
+      "note": ""
+    },
+    {
+      "id": "rec-20261125-bonbu-hdh",
+      "date": "2026-11-25",
+      "branch": "본부",
+      "position": "조직차장",
+      "requester": "홍대훈",
+      "substitute": "윤소담",
+      "workDetails": "서부활동",
+      "companion": "서부지부장",
+      "note": ""
     }
   ]
 }
