@@ -2151,6 +2151,17 @@
       "note": "대체조합원 서울본부 소속"
     },
     {
+      "id": "rec-20261123-bonjo-ugs",
+      "date": "2026-11-23",
+      "branch": "본조",
+      "position": "조합원",
+      "requester": "엄광섭",
+      "substitute": "엄기우",
+      "workDetails": "협동사 주요 인사교섭",
+      "companion": "조창희 부위원장 외",
+      "note": ""
+    },
+    {
       "id": "rec-20261124-bonbu-pmc",
       "date": "2026-11-24",
       "branch": "본부",
@@ -2270,6 +2281,50 @@
       "workDetails": "용인지부 · 상현동 부흥건설 교섭",
       "companion": "정재호",
       "note": "원문 분류: 용인지부"
+    },
+    {
+      "id": "rec-20261126-bonbu-jyk",
+      "date": "2026-11-26",
+      "branch": "본부",
+      "position": "조직차장",
+      "requester": "정윤기",
+      "substitute": "성경민",
+      "workDetails": "고용노동부 출석",
+      "companion": "",
+      "note": ""
+    },
+    {
+      "id": "rec-20261127-bonbu-kjs",
+      "date": "2026-11-27",
+      "branch": "본부",
+      "position": "지부장",
+      "requester": "김정섭",
+      "substitute": "김승섭",
+      "workDetails": "북서지부 · 까뮤 미팅 외 북서 관내 현장활동",
+      "companion": "홍대훈 조직차장",
+      "note": "원문 분류: 북서지부"
+    },
+    {
+      "id": "rec-20261127-bonjo-pmc",
+      "date": "2026-11-27",
+      "branch": "본조",
+      "position": "본부장",
+      "requester": "박문철",
+      "substitute": "안병기",
+      "workDetails": "본조 범대위",
+      "companion": "",
+      "note": "대체조합원 서울본부 소속; 원문: 대체요청"
+    },
+    {
+      "id": "rec-20261127-bonbu-hdh",
+      "date": "2026-11-27",
+      "branch": "본부",
+      "position": "조직차장",
+      "requester": "홍대훈",
+      "substitute": "윤소담",
+      "workDetails": "북서 활동",
+      "companion": "북서지부장",
+      "note": ""
     }
   ]
 }
